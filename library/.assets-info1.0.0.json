@@ -1,0 +1,916 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes.meta": {
+      "time": 1726817948406.7493
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes": {
+      "time": 1726818991146.7617,
+      "uuid": "4b757463-b0e3-4f1f-b05d-c6cbf2541b15"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/01-Start.scene.meta": {
+      "time": 1726818201393.7554
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/01-Start.scene": {
+      "time": 1726820423925.0066,
+      "uuid": "83b1ba08-a8ef-45e9-8f04-cd875e7a827b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio.meta": {
+      "time": 1726818985012.3892
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio": {
+      "time": 1726818985010.653,
+      "uuid": "a4784713-30d5-48bf-a651-f76f5c1ae8df"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/big_spaceship_flying.mp3.meta": {
+      "time": 1726818985034.6426
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/big_spaceship_flying.mp3": {
+      "time": 1726818985005.928,
+      "uuid": "c7a7e21b-c063-4336-a871-35a716f1b9e6"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/button.mp3.meta": {
+      "time": 1726818985034.003
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/button.mp3": {
+      "time": 1726818985005.0564,
+      "uuid": "757ae0c2-1198-4740-a75d-34934ebbd7c7"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/bullet.mp3.meta": {
+      "time": 1726818985034.8154
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/bullet.mp3": {
+      "time": 1726818985005.51,
+      "uuid": "b4e5c5be-a396-4d4a-b329-6c2c87ceb511"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/enemy0_down.mp3.meta": {
+      "time": 1726818985033.363
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/enemy0_down.mp3": {
+      "time": 1726818985004.5107,
+      "uuid": "70fdd90c-9047-4af5-ae23-f39124edf674"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/achievement.mp3.meta": {
+      "time": 1726818985034.972
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/achievement.mp3": {
+      "time": 1726818985006.3665,
+      "uuid": "0413321a-a9d8-470b-bddf-fd145f89d8d8"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/enemy2_down.mp3.meta": {
+      "time": 1726818985054.5684
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/enemy2_down.mp3": {
+      "time": 1726818985003.5918,
+      "uuid": "7a3688d7-5015-4df5-962e-09971804ee15"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/enemy1_down.mp3.meta": {
+      "time": 1726818985055.086
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/enemy1_down.mp3": {
+      "time": 1726818985004.0593,
+      "uuid": "f0cac808-a20f-4183-af62-9761b3d23192"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_music.mp3.meta": {
+      "time": 1726818985055.9329
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_music.mp3": {
+      "time": 1726818984992.2722,
+      "uuid": "20d7dab1-2956-4a1d-ba28-24a35cafa337"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_over.mp3.meta": {
+      "time": 1726818985055.2368
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_over.mp3": {
+      "time": 1726818984991.34,
+      "uuid": "e0c7e1ea-e783-4d31-ab8e-a7579125baa8"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/get_bomb.mp3.meta": {
+      "time": 1726818985055.7422
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/get_bomb.mp3": {
+      "time": 1726818984990.8865,
+      "uuid": "85857787-1582-448e-843b-46e654469888"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/use_bomb.mp3.meta": {
+      "time": 1726818985060.3235
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/use_bomb.mp3": {
+      "time": 1726818984988.606,
+      "uuid": "a5abe4aa-0612-4d1e-a753-6a82d7509963"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/get_double_laser.mp3.meta": {
+      "time": 1726818985060.661
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/get_double_laser.mp3": {
+      "time": 1726818984990.2935,
+      "uuid": "ddf8c1a4-cf17-492f-ae7a-f41f79af44c6"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/out_porp.mp3.meta": {
+      "time": 1726818985059.789
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/out_porp.mp3": {
+      "time": 1726818984989.3362,
+      "uuid": "eed49bac-edaf-4c12-a648-ab500a9ce6fb"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image.meta": {
+      "time": 1726818985121.1162
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/New Atlas.png.meta": {
+      "time": 1726818985212.376
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/background.png.meta": {
+      "time": 1726818985211.4956
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bg.png.meta": {
+      "time": 1726818985216.8696
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bomb.png.meta": {
+      "time": 1726818985216.181
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/btn_finish.png.meta": {
+      "time": 1726818985210.2812
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bullet.png.meta": {
+      "time": 1726818985224.0122
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bullet1.png.meta": {
+      "time": 1726818985226.1501
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bullet2.png.meta": {
+      "time": 1726818985226.8577
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/button_nor.png.meta": {
+      "time": 1726818985225.3972
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/button_p.png.meta": {
+      "time": 1726818985228.257
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0.png.meta": {
+      "time": 1726818985236.8733
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down1.png.meta": {
+      "time": 1726818985239.923
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down2.png.meta": {
+      "time": 1726818985240.4783
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down3.png.meta": {
+      "time": 1726818985242.9343
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down4.png.meta": {
+      "time": 1726818985242.6519
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1.png.meta": {
+      "time": 1726818985250.0461
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down1.png.meta": {
+      "time": 1726818985252.3857
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down2.png.meta": {
+      "time": 1726818985255.2236
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down3.png.meta": {
+      "time": 1726818985258.9412
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down4.png.meta": {
+      "time": 1726818985256.928
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_hit.png.meta": {
+      "time": 1726818985316.2974
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2.png.meta": {
+      "time": 1726818985321.8806
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down1.png.meta": {
+      "time": 1726818985332.4246
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down2.png.meta": {
+      "time": 1726818985342.56
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down3.png.meta": {
+      "time": 1726818985344.6174
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down4.png.meta": {
+      "time": 1726818985372.8667
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down5.png.meta": {
+      "time": 1726818985370.193
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down6.png.meta": {
+      "time": 1726818985375.6633
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_hit.png.meta": {
+      "time": 1726818985385.153
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_n2.png.meta": {
+      "time": 1726818985386.2588
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading1.png.meta": {
+      "time": 1726818985393.002
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading2.png.meta": {
+      "time": 1726818985394.4346
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading3.png.meta": {
+      "time": 1726818985393.836
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading4.png.meta": {
+      "time": 1726818985400.4067
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_pause_nor.png.meta": {
+      "time": 1726818985398.7869
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_pause_pressed.png.meta": {
+      "time": 1726818985409.2415
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_resume_nor.png.meta": {
+      "time": 1726818985410.3655
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_resume_pressed.png.meta": {
+      "time": 1726818985407.862
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/gameover.png.meta": {
+      "time": 1726818985420.8171
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero1.png.meta": {
+      "time": 1726818985417.8865
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero2.png.meta": {
+      "time": 1726818985425.6042
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n1.png.meta": {
+      "time": 1726818985426.9688
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n2.png.meta": {
+      "time": 1726818985425.8665
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n3.png.meta": {
+      "time": 1726818985440.5142
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n4.png.meta": {
+      "time": 1726818985444.065
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/icon72x72.png.meta": {
+      "time": 1726818985456.7974
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/loading.png.meta": {
+      "time": 1726818985458.283
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/name.png.meta": {
+      "time": 1726818985448.6804
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/plane.png.meta": {
+      "time": 1726818985453.8892
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/progress.png.meta": {
+      "time": 1726818985455.8943
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/prop_type_0.png.meta": {
+      "time": 1726818985462.74
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/prop_type_1.png.meta": {
+      "time": 1726818985470.6702
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/quit_nor.png.meta": {
+      "time": 1726818985473.2021
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/quit_sel.png.meta": {
+      "time": 1726818985476.294
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/restart_nor.png.meta": {
+      "time": 1726818985475.5552
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/restart_sel.png.meta": {
+      "time": 1726818985478.5737
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/resume_nor.png.meta": {
+      "time": 1726818985483.336
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/resume_sel.png.meta": {
+      "time": 1726818985484.699
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image": {
+      "time": 1726818985135.493,
+      "uuid": "85032e42-66f3-4bcf-92a5-0a4110d0fda9"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bomb.png": {
+      "time": 1726818985041.6802,
+      "uuid": "dbbf4e1b-cbf0-456b-8ac0-44c30ffa084f"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/New Atlas.png": {
+      "time": 1726818985044.1665,
+      "uuid": "d1ba2e30-4f63-4fe8-9d8e-c7e283b97793"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/btn_finish.png": {
+      "time": 1726818985041.2563,
+      "uuid": "9667838e-9815-4cd4-ac75-404d8785b312"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/background.png": {
+      "time": 1726818985043.6125,
+      "uuid": "e3b487d0-36be-4929-af9e-094106b36c89"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bg.png": {
+      "time": 1726818985042.889,
+      "uuid": "94598c43-ae3c-4aa9-823d-acb4425de859"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bullet.png": {
+      "time": 1726818985040.8887,
+      "uuid": "38b8f42b-f489-447b-8452-7dd3ef245add"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bullet1.png": {
+      "time": 1726818985040.6165,
+      "uuid": "923d58b6-80c9-4c3b-aafd-7a1750746d98"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/bullet2.png": {
+      "time": 1726818985040.2913,
+      "uuid": "542bc542-7cdc-456b-9912-2e10548ffe93"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/button_nor.png": {
+      "time": 1726818985038.6057,
+      "uuid": "6343f48e-5ec3-4431-bcb3-567f289b90a1"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/button_p.png": {
+      "time": 1726818985036.5737,
+      "uuid": "e8026ff5-1329-4402-9126-6be9b1d613e2"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0.png": {
+      "time": 1726818985035.482,
+      "uuid": "12153aba-5716-4b1a-be69-160bf778b327"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down1.png": {
+      "time": 1726818985034.9426,
+      "uuid": "c88be7da-cf22-4980-be06-cbddd0c90aea"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down2.png": {
+      "time": 1726818985034.3882,
+      "uuid": "5ffdeaea-5046-42a8-ab87-4bd096e54fd7"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down3.png": {
+      "time": 1726818985033.7083,
+      "uuid": "62702c9d-2f53-4837-9bc4-8a206188da30"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy0_down4.png": {
+      "time": 1726818985032.691,
+      "uuid": "39126672-111a-4bc1-b1b3-e2a2626ea30c"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1.png": {
+      "time": 1726818985031.6326,
+      "uuid": "1f744cac-83c9-4f15-bc39-f580a69202f4"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down1.png": {
+      "time": 1726818985029.716,
+      "uuid": "6d6c19bb-2beb-41aa-9fc8-251723c4997a"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down2.png": {
+      "time": 1726818985028.6455,
+      "uuid": "eedf52d7-06c1-4480-978b-be1f5a06bee7"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down3.png": {
+      "time": 1726818985027.0603,
+      "uuid": "bb027131-b3c0-4b72-bbd8-3c7b1e444bc1"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_down4.png": {
+      "time": 1726818985026.3145,
+      "uuid": "bc9516ae-f33d-469d-a964-d9a44cbc3de5"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy1_hit.png": {
+      "time": 1726818985025.3242,
+      "uuid": "8b930598-bd77-4064-90d5-2b9958360bce"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2.png": {
+      "time": 1726818985024.7078,
+      "uuid": "f33a635f-8225-41f9-92e7-17a2d5fabc88"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down1.png": {
+      "time": 1726818985024.0623,
+      "uuid": "bb50e1b6-86f8-49de-86da-67fa66a45f01"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down3.png": {
+      "time": 1726818985022.2905,
+      "uuid": "92009d74-86c7-456b-bebf-6b6abb3e4f50"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down2.png": {
+      "time": 1726818985022.9822,
+      "uuid": "0922a9dd-29f4-4ca3-8412-db41420906f4"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down4.png": {
+      "time": 1726818985021.4297,
+      "uuid": "6c47e3f2-25c8-4c64-8f72-5a5b14d99ac0"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down5.png": {
+      "time": 1726818985019.4863,
+      "uuid": "1bfebcfa-2433-4d5f-adaf-c18f5ac71763"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_down6.png": {
+      "time": 1726818985018.438,
+      "uuid": "fe4bdba1-5e9a-49be-926a-4dc852f07ac4"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading1.png": {
+      "time": 1726818985016.4988,
+      "uuid": "3074b813-7bcd-41a0-aa06-9f7c723a716c"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_hit.png": {
+      "time": 1726818985017.7312,
+      "uuid": "24aad5dd-5355-45f0-ac71-376154adc3fe"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading2.png": {
+      "time": 1726818985016.1863,
+      "uuid": "72cdee7e-573f-4f8f-9c87-66ed256ff0d7"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/enemy2_n2.png": {
+      "time": 1726818985017.086,
+      "uuid": "547224c3-bf7a-4bb2-978f-dcbb9493587b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading3.png": {
+      "time": 1726818985015.775,
+      "uuid": "01202c26-cb5d-49ab-9714-7e23e45b0d9d"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_loading4.png": {
+      "time": 1726818985015.152,
+      "uuid": "69a41b1b-ecbe-4ec2-a32e-dc86e40f4fd3"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_pause_pressed.png": {
+      "time": 1726818985013.9292,
+      "uuid": "7ec81537-8d92-42d6-99f0-1f05c875e25e"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_pause_nor.png": {
+      "time": 1726818985014.7148,
+      "uuid": "c6fed09d-a123-443d-99c1-cd3dc3ddf166"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_resume_pressed.png": {
+      "time": 1726818985012.3896,
+      "uuid": "7a750b0b-d29d-47bb-b61c-2fd8874e07f1"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/game_resume_nor.png": {
+      "time": 1726818985012.7122,
+      "uuid": "ceeb5d4b-9f36-4bcb-872e-6dfc47a7ce37"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero1.png": {
+      "time": 1726818985010.6553,
+      "uuid": "5bf3751f-f171-431f-ad14-e7b9d1121065"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero2.png": {
+      "time": 1726818985009.5593,
+      "uuid": "abf7a3d3-727e-4eb5-82e4-58d9d51475b1"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n1.png": {
+      "time": 1726818985008.456,
+      "uuid": "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/gameover.png": {
+      "time": 1726818985011.8804,
+      "uuid": "42aed54a-b019-439d-a43a-3ca17a27059c"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n2.png": {
+      "time": 1726818985008.0386,
+      "uuid": "663352af-8cb8-47fa-a819-ee754d4393fb"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n3.png": {
+      "time": 1726818985007.0276,
+      "uuid": "58fea8ae-e10e-4a72-9f39-7cb40f710d5a"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_blowup_n4.png": {
+      "time": 1726818985006.6548,
+      "uuid": "d2b5b62f-1ed7-4284-8318-c63833b19471"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/loading.png": {
+      "time": 1726818985005.6501,
+      "uuid": "7ed36aa7-6b85-4af8-be3e-80d9fe889ba6"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/icon72x72.png": {
+      "time": 1726818985006.2449,
+      "uuid": "73f600ee-bf7a-4bc7-8072-b090570da056"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/progress.png": {
+      "time": 1726818984992.478,
+      "uuid": "db18d6e6-463a-49dc-be91-ea3ad20beb85"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/plane.png": {
+      "time": 1726818985003.752,
+      "uuid": "d540a6b1-85ce-4695-9e7d-27cffa88a637"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/name.png": {
+      "time": 1726818985004.3289,
+      "uuid": "cbe5a860-b14f-4320-9100-f018d8738ed5"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/prop_type_0.png": {
+      "time": 1726818984992.0027,
+      "uuid": "b41c2d56-eb97-40bc-b685-ed4e3b0a28e9"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/prop_type_1.png": {
+      "time": 1726818984991.6167,
+      "uuid": "60c2bb2d-9830-45e2-a801-1d87f2393e6a"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/quit_sel.png": {
+      "time": 1726818984990.6924,
+      "uuid": "e9f7721d-9a05-4e4e-b5eb-6089c8b97e58"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/quit_nor.png": {
+      "time": 1726818984991.1272,
+      "uuid": "2709dae2-5503-44ee-be32-96d221c1b37f"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/restart_nor.png": {
+      "time": 1726818984990.2524,
+      "uuid": "38676124-a178-4dc3-9aa4-f94384e8d0a0"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/restart_sel.png": {
+      "time": 1726818984989.7222,
+      "uuid": "d3d271da-86b5-4b5e-87d8-9e927dcbb30b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/resume_nor.png": {
+      "time": 1726818984989.2356,
+      "uuid": "1e27d2a7-8e45-4be5-8a8c-84f1fe041afb"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/resume_sel.png": {
+      "time": 1726818984988.6235,
+      "uuid": "34a285cd-d5bd-4a09-9226-e0a1c4917d3b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations.meta": {
+      "time": 1726819464749.249
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Loading.anim.meta": {
+      "time": 1726819464756.9
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations": {
+      "time": 1726819464747.964,
+      "uuid": "e2d33e0a-0459-4cf1-bfbc-74bf4a4e972b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Loading.anim": {
+      "time": 1726820110436.2847,
+      "uuid": "3d9f1ef5-5220-4e9f-86d5-795cfb71df35"
+    }
+  },
+  "missing": {
+    "83b1ba08-a8ef-45e9-8f04-cd875e7a827b": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/01-Start.scene",
+      "time": 1726818201392.277,
+      "removeTime": 1726818205005
+    },
+    "a4784713-30d5-48bf-a651-f76f5c1ae8df": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o",
+      "time": 1726818985010.653,
+      "removeTime": 1726819006549
+    },
+    "0413321a-a9d8-470b-bddf-fd145f89d8d8": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/achievement.mp3",
+      "time": 1726818985006.3665,
+      "removeTime": 1726819006549
+    },
+    "c7a7e21b-c063-4336-a871-35a716f1b9e6": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/big_spaceship_flying.mp3",
+      "time": 1726818985005.928,
+      "removeTime": 1726819006549
+    },
+    "b4e5c5be-a396-4d4a-b329-6c2c87ceb511": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/bullet.mp3",
+      "time": 1726818985005.51,
+      "removeTime": 1726819006549
+    },
+    "757ae0c2-1198-4740-a75d-34934ebbd7c7": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/button.mp3",
+      "time": 1726818985005.0564,
+      "removeTime": 1726819006549
+    },
+    "70fdd90c-9047-4af5-ae23-f39124edf674": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/enemy0_down.mp3",
+      "time": 1726818985004.5107,
+      "removeTime": 1726819006549
+    },
+    "f0cac808-a20f-4183-af62-9761b3d23192": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/enemy1_down.mp3",
+      "time": 1726818985004.0593,
+      "removeTime": 1726819006550
+    },
+    "7a3688d7-5015-4df5-962e-09971804ee15": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/enemy2_down.mp3",
+      "time": 1726818985003.5918,
+      "removeTime": 1726819006550
+    },
+    "20d7dab1-2956-4a1d-ba28-24a35cafa337": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/game_music.mp3",
+      "time": 1726818984992.2722,
+      "removeTime": 1726819006550
+    },
+    "e0c7e1ea-e783-4d31-ab8e-a7579125baa8": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/game_over.mp3",
+      "time": 1726818984991.34,
+      "removeTime": 1726819006550
+    },
+    "85857787-1582-448e-843b-46e654469888": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/get_bomb.mp3",
+      "time": 1726818984990.8865,
+      "removeTime": 1726819006550
+    },
+    "ddf8c1a4-cf17-492f-ae7a-f41f79af44c6": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/get_double_laser.mp3",
+      "time": 1726818984990.2935,
+      "removeTime": 1726819006550
+    },
+    "eed49bac-edaf-4c12-a648-ab500a9ce6fb": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/out_porp.mp3",
+      "time": 1726818984989.3362,
+      "removeTime": 1726819006550
+    },
+    "a5abe4aa-0612-4d1e-a753-6a82d7509963": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/use_bomb.mp3",
+      "time": 1726818984988.606,
+      "removeTime": 1726819006550
+    },
+    "85032e42-66f3-4bcf-92a5-0a4110d0fda9": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image",
+      "time": 1726818985135.4927,
+      "removeTime": 1726819011391
+    },
+    "d1ba2e30-4f63-4fe8-9d8e-c7e283b97793": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/New Atlas.png",
+      "time": 1726818985044.1665,
+      "removeTime": 1726819011391
+    },
+    "e3b487d0-36be-4929-af9e-094106b36c89": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/background.png",
+      "time": 1726818985043.6125,
+      "removeTime": 1726819011391
+    },
+    "94598c43-ae3c-4aa9-823d-acb4425de859": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/bg.png",
+      "time": 1726818985042.889,
+      "removeTime": 1726819011391
+    },
+    "dbbf4e1b-cbf0-456b-8ac0-44c30ffa084f": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/bomb.png",
+      "time": 1726818985041.6802,
+      "removeTime": 1726819011392
+    },
+    "9667838e-9815-4cd4-ac75-404d8785b312": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/btn_finish.png",
+      "time": 1726818985041.2566,
+      "removeTime": 1726819011392
+    },
+    "38b8f42b-f489-447b-8452-7dd3ef245add": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/bullet.png",
+      "time": 1726818985040.8887,
+      "removeTime": 1726819011392
+    },
+    "923d58b6-80c9-4c3b-aafd-7a1750746d98": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/bullet1.png",
+      "time": 1726818985040.6165,
+      "removeTime": 1726819011392
+    },
+    "542bc542-7cdc-456b-9912-2e10548ffe93": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/bullet2.png",
+      "time": 1726818985040.2913,
+      "removeTime": 1726819011392
+    },
+    "6343f48e-5ec3-4431-bcb3-567f289b90a1": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/button_nor.png",
+      "time": 1726818985038.6057,
+      "removeTime": 1726819011392
+    },
+    "e8026ff5-1329-4402-9126-6be9b1d613e2": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/button_p.png",
+      "time": 1726818985036.5737,
+      "removeTime": 1726819011392
+    },
+    "12153aba-5716-4b1a-be69-160bf778b327": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy0.png",
+      "time": 1726818985035.482,
+      "removeTime": 1726819011392
+    },
+    "c88be7da-cf22-4980-be06-cbddd0c90aea": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy0_down1.png",
+      "time": 1726818985034.9424,
+      "removeTime": 1726819011392
+    },
+    "5ffdeaea-5046-42a8-ab87-4bd096e54fd7": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy0_down2.png",
+      "time": 1726818985034.3882,
+      "removeTime": 1726819011392
+    },
+    "62702c9d-2f53-4837-9bc4-8a206188da30": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy0_down3.png",
+      "time": 1726818985033.7083,
+      "removeTime": 1726819011392
+    },
+    "39126672-111a-4bc1-b1b3-e2a2626ea30c": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy0_down4.png",
+      "time": 1726818985032.691,
+      "removeTime": 1726819011392
+    },
+    "1f744cac-83c9-4f15-bc39-f580a69202f4": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy1.png",
+      "time": 1726818985031.6328,
+      "removeTime": 1726819011392
+    },
+    "6d6c19bb-2beb-41aa-9fc8-251723c4997a": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy1_down1.png",
+      "time": 1726818985029.716,
+      "removeTime": 1726819011392
+    },
+    "eedf52d7-06c1-4480-978b-be1f5a06bee7": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy1_down2.png",
+      "time": 1726818985028.6455,
+      "removeTime": 1726819011392
+    },
+    "bb027131-b3c0-4b72-bbd8-3c7b1e444bc1": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy1_down3.png",
+      "time": 1726818985027.0603,
+      "removeTime": 1726819011392
+    },
+    "bc9516ae-f33d-469d-a964-d9a44cbc3de5": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy1_down4.png",
+      "time": 1726818985026.3145,
+      "removeTime": 1726819011392
+    },
+    "8b930598-bd77-4064-90d5-2b9958360bce": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy1_hit.png",
+      "time": 1726818985025.3242,
+      "removeTime": 1726819011392
+    },
+    "f33a635f-8225-41f9-92e7-17a2d5fabc88": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2.png",
+      "time": 1726818985024.7075,
+      "removeTime": 1726819011392
+    },
+    "bb50e1b6-86f8-49de-86da-67fa66a45f01": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_down1.png",
+      "time": 1726818985024.0623,
+      "removeTime": 1726819011392
+    },
+    "0922a9dd-29f4-4ca3-8412-db41420906f4": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_down2.png",
+      "time": 1726818985022.9822,
+      "removeTime": 1726819011392
+    },
+    "92009d74-86c7-456b-bebf-6b6abb3e4f50": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_down3.png",
+      "time": 1726818985022.2905,
+      "removeTime": 1726819011392
+    },
+    "6c47e3f2-25c8-4c64-8f72-5a5b14d99ac0": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_down4.png",
+      "time": 1726818985021.4297,
+      "removeTime": 1726819011392
+    },
+    "1bfebcfa-2433-4d5f-adaf-c18f5ac71763": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_down5.png",
+      "time": 1726818985019.4863,
+      "removeTime": 1726819011392
+    },
+    "fe4bdba1-5e9a-49be-926a-4dc852f07ac4": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_down6.png",
+      "time": 1726818985018.438,
+      "removeTime": 1726819011392
+    },
+    "24aad5dd-5355-45f0-ac71-376154adc3fe": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_hit.png",
+      "time": 1726818985017.7312,
+      "removeTime": 1726819011392
+    },
+    "547224c3-bf7a-4bb2-978f-dcbb9493587b": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/enemy2_n2.png",
+      "time": 1726818985017.086,
+      "removeTime": 1726819011392
+    },
+    "3074b813-7bcd-41a0-aa06-9f7c723a716c": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_loading1.png",
+      "time": 1726818985016.4988,
+      "removeTime": 1726819011392
+    },
+    "72cdee7e-573f-4f8f-9c87-66ed256ff0d7": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_loading2.png",
+      "time": 1726818985016.1863,
+      "removeTime": 1726819011392
+    },
+    "01202c26-cb5d-49ab-9714-7e23e45b0d9d": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_loading3.png",
+      "time": 1726818985015.775,
+      "removeTime": 1726819011393
+    },
+    "69a41b1b-ecbe-4ec2-a32e-dc86e40f4fd3": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_loading4.png",
+      "time": 1726818985015.152,
+      "removeTime": 1726819011393
+    },
+    "c6fed09d-a123-443d-99c1-cd3dc3ddf166": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_pause_nor.png",
+      "time": 1726818985014.7148,
+      "removeTime": 1726819011393
+    },
+    "7ec81537-8d92-42d6-99f0-1f05c875e25e": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_pause_pressed.png",
+      "time": 1726818985013.9292,
+      "removeTime": 1726819011393
+    },
+    "ceeb5d4b-9f36-4bcb-872e-6dfc47a7ce37": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_resume_nor.png",
+      "time": 1726818985012.7122,
+      "removeTime": 1726819011393
+    },
+    "7a750b0b-d29d-47bb-b61c-2fd8874e07f1": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/game_resume_pressed.png",
+      "time": 1726818985012.3894,
+      "removeTime": 1726819011393
+    },
+    "42aed54a-b019-439d-a43a-3ca17a27059c": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/gameover.png",
+      "time": 1726818985011.8804,
+      "removeTime": 1726819011393
+    },
+    "5bf3751f-f171-431f-ad14-e7b9d1121065": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/hero1.png",
+      "time": 1726818985010.6553,
+      "removeTime": 1726819011393
+    },
+    "abf7a3d3-727e-4eb5-82e4-58d9d51475b1": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/hero2.png",
+      "time": 1726818985009.5593,
+      "removeTime": 1726819011393
+    },
+    "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/hero_blowup_n1.png",
+      "time": 1726818985008.456,
+      "removeTime": 1726819011393
+    },
+    "663352af-8cb8-47fa-a819-ee754d4393fb": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/hero_blowup_n2.png",
+      "time": 1726818985008.0386,
+      "removeTime": 1726819011393
+    },
+    "58fea8ae-e10e-4a72-9f39-7cb40f710d5a": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/hero_blowup_n3.png",
+      "time": 1726818985007.0276,
+      "removeTime": 1726819011393
+    },
+    "d2b5b62f-1ed7-4284-8318-c63833b19471": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/hero_blowup_n4.png",
+      "time": 1726818985006.6548,
+      "removeTime": 1726819011393
+    },
+    "73f600ee-bf7a-4bc7-8072-b090570da056": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/icon72x72.png",
+      "time": 1726818985006.2449,
+      "removeTime": 1726819011393
+    },
+    "7ed36aa7-6b85-4af8-be3e-80d9fe889ba6": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/loading.png",
+      "time": 1726818985005.6501,
+      "removeTime": 1726819011393
+    },
+    "cbe5a860-b14f-4320-9100-f018d8738ed5": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/name.png",
+      "time": 1726818985004.329,
+      "removeTime": 1726819011393
+    },
+    "d540a6b1-85ce-4695-9e7d-27cffa88a637": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/plane.png",
+      "time": 1726818985003.752,
+      "removeTime": 1726819011393
+    },
+    "db18d6e6-463a-49dc-be91-ea3ad20beb85": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/progress.png",
+      "time": 1726818984992.478,
+      "removeTime": 1726819011393
+    },
+    "b41c2d56-eb97-40bc-b685-ed4e3b0a28e9": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/prop_type_0.png",
+      "time": 1726818984992.0024,
+      "removeTime": 1726819011393
+    },
+    "60c2bb2d-9830-45e2-a801-1d87f2393e6a": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/prop_type_1.png",
+      "time": 1726818984991.6167,
+      "removeTime": 1726819011393
+    },
+    "2709dae2-5503-44ee-be32-96d221c1b37f": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/quit_nor.png",
+      "time": 1726818984991.1272,
+      "removeTime": 1726819011393
+    },
+    "e9f7721d-9a05-4e4e-b5eb-6089c8b97e58": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/quit_sel.png",
+      "time": 1726818984990.6926,
+      "removeTime": 1726819011393
+    },
+    "38676124-a178-4dc3-9aa4-f94384e8d0a0": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/restart_nor.png",
+      "time": 1726818984990.2524,
+      "removeTime": 1726819011393
+    },
+    "d3d271da-86b5-4b5e-87d8-9e927dcbb30b": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/restart_sel.png",
+      "time": 1726818984989.7222,
+      "removeTime": 1726819011393
+    },
+    "1e27d2a7-8e45-4be5-8a8c-84f1fe041afb": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/resume_nor.png",
+      "time": 1726818984989.2356,
+      "removeTime": 1726819011393
+    },
+    "34a285cd-d5bd-4a09-9226-e0a1c4917d3b": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/resume_sel.png",
+      "time": 1726818984988.6235,
+      "removeTime": 1726819011393
+    }
+  }
+}
