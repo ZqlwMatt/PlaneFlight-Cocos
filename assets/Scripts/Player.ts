@@ -1,8 +1,19 @@
-import { _decorator, Component, EventTouch, Input, input, Node, Vec3 } from 'cc';
+import { _decorator, Component, EventTouch, Input, input, instantiate, Node, Prefab, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Player')
 export class Player extends Component {
+    
+    @property
+    shootRate:number = 0.3;
+    @property(Node)
+    bulletParent:Node = null;
+    @property(Prefab)
+    bullet1Prefab:Prefab = null;
+    @property(Node)
+    bullet1Position:Node = null;
+
+    shootTimer:number = 0.0;
 
     // 注册事件
     protected onLoad(): void {
@@ -33,6 +44,17 @@ export class Player extends Component {
         }
         
         this.node.setPosition(targetPosition);
+    }
+
+    protected update(deltaTime: number) {
+        this.shootTimer += deltaTime;
+        if (this.shootTimer >= this.shootRate) {
+            this.shootTimer = 0;
+            const bullet1 = instantiate(this.bullet1Prefab);
+            // 把子弹放到场景当中
+            this.bulletParent.addChild(bullet1);
+            bullet1.setWorldPosition(this.bullet1Position.worldPosition);
+        }
     }
 }
 

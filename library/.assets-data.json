@@ -1606,10 +1606,14 @@
     "value": {
       "depends": [
         "da109a1c-644e-4578-b703-a1f20d11576a",
-        "e3b487d0-36be-4929-af9e-094106b36c89@f9941"
+        "e3b487d0-36be-4929-af9e-094106b36c89@f9941",
+        "5bf3751f-f171-431f-ad14-e7b9d1121065@f9941",
+        "c0b1dae4-face-4473-83cb-5622e2d8821a",
+        "56a679a4-673f-4e9b-9262-73657509fd14"
       ],
       "dependScripts": [
-        "d26cb5de-796b-46fb-873e-cc46eec8cbc8"
+        "d26cb5de-796b-46fb-873e-cc46eec8cbc8",
+        "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       ]
     },
     "versionCode": 1
@@ -1649,6 +1653,18 @@
     "value": {
       "depends": [
         "923d58b6-80c9-4c3b-aafd-7a1750746d98@f9941"
+      ],
+      "dependScripts": [
+        "6ba29fa3-4a00-4efa-b405-fcbe0cb17d2b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba": {
+    "url": "db://assets/Prefabs/Bullet2.prefab",
+    "value": {
+      "depends": [
+        "542bc542-7cdc-456b-9912-2e10548ffe93@f9941"
       ],
       "dependScripts": [
         "6ba29fa3-4a00-4efa-b405-fcbe0cb17d2b"

@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4517422.980791032,
+      "mTimestamp": 5252038.286415994,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -963,7 +963,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1728286698283.3552,
+        "mtime": 1728288063306.6135,
         "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       },
       "chunkId": "4ee4b745e195651d43d93cea5e0e627822e7c083",
@@ -979,11 +979,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 76
+              "column": 97
             },
             "end": {
               "line": 1,
-              "column": 80
+              "column": 101
             }
           }
         }
