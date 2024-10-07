@@ -533,7 +533,7 @@
       "time": 1726819464756.9
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations": {
-      "time": 1726819464747.964,
+      "time": 1728285382460.9316,
       "uuid": "e2d33e0a-0459-4cf1-bfbc-74bf4a4e972b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Loading.anim": {
@@ -567,6 +567,13 @@
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts": {
       "time": 1728284823925.3481,
       "uuid": "d26cb5de-796b-46fb-873e-cc46eec8cbc8"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Player_Idle.anim.meta": {
+      "time": 1728285382465.87
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Player_Idle.anim": {
+      "time": 1728285982242.9783,
+      "uuid": "c0b1dae4-face-4473-83cb-5622e2d8821a"
     }
   },
   "missing": {

@@ -1618,5 +1618,15 @@
     "url": "db://assets/Scripts/Bg.ts",
     "value": {},
     "versionCode": 1
+  },
+  "c0b1dae4-face-4473-83cb-5622e2d8821a": {
+    "url": "db://assets/Animations/Player_Idle.anim",
+    "value": {
+      "depends": [
+        "5bf3751f-f171-431f-ad14-e7b9d1121065@f9941",
+        "abf7a3d3-727e-4eb5-82e4-58d9d51475b1@f9941"
+      ]
+    },
+    "versionCode": 1
   }
 }
