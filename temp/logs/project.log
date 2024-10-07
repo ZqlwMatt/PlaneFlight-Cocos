@@ -126,3 +126,107 @@ at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/
 10-7-2024 15:26:29 - info: [PreviewInEditor] Forward render pipeline initialized.
 10-7-2024 15:26:29 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
 10-7-2024 15:26:42 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:33:26 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:33:27 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:33:27 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:33:27 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:33:27 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:33:27 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:33:27 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:33:35 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:33:51 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:33:51 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:33:51 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:33:51 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:33:52 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:33:52 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:33:52 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:34:44 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:34:44 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:34:44 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:34:44 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:34:45 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:34:45 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:34:45 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:34:45 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:36:57 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:36:58 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:36:58 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:36:58 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:36:58 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:36:58 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:36:58 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:36:58 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:37:07 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:37:59 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:37:59 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:37:59 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:37:59 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:37:59 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:37:59 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:37:59 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:38:13 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:39:23 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:39:23 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:39:23 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:39:24 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:39:24 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:39:24 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:39:24 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:39:34 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:39:37 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:39:37 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:39:37 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:39:38 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:39:38 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:39:38 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:39:38 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:39:50 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:40:04 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:40:04 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:40:04 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:40:04 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:40:04 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:40:04 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:40:04 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:40:14 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:40:16 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:40:16 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:40:17 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:40:17 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:40:17 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:40:17 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:40:17 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:40:46 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:40:51 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:40:51 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:40:51 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:40:52 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:40:52 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:40:52 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:40:52 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:41:01 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
+    at EventEmitter.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
+    at EventEmitter.emit (events.js:315:20)
+    at Object.onMessage (electron/js2c/renderer_init.js:93:1117)
+10-7-2024 15:41:01 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
+    at EventEmitter.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1495)
+    at EventEmitter.emit (events.js:315:20)
+    at Object.onMessage (electron/js2c/renderer_init.js:93:1117)
+10-7-2024 15:41:01 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:41:26 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:41:26 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:41:26 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:41:26 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:41:26 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:41:26 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:41:26 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:41:32 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:44:45 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:44:45 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:44:45 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:44:45 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:44:45 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:44:45 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:44:45 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:44:51 - info: [PreviewInEditor] preview process is ready

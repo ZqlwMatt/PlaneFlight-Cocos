@@ -251,6 +251,18 @@
       },
       "timestamp": 1728283812461
     },
+    "31231bbd4263bcca3e3eded940c549f500c1ab1e": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1728284830726
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -270,14 +282,21 @@
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
+            "id": "4ee4b745e195651d43d93cea5e0e627822e7c083"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
             "id": "3925c8909393114becdb204ca69d8e32d2033379"
           },
           "messages": []
         }
       },
-      "timestamp": 1728284830706
+      "timestamp": 1728286736496
     },
-    "31231bbd4263bcca3e3eded940c549f500c1ab1e": {
+    "4ee4b745e195651d43d93cea5e0e627822e7c083": {
       "imports": {
         "cc": {
           "resolved": {
@@ -287,7 +306,7 @@
           "messages": []
         }
       },
-      "timestamp": 1728284830726
+      "timestamp": 1728286736513
     }
   },
   "entries": {
@@ -295,6 +314,7 @@
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "31e3c2f26607ebb67e59edfae1b48b9458089fb9",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts": "31231bbd4263bcca3e3eded940c549f500c1ab1e",
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": "4ee4b745e195651d43d93cea5e0e627822e7c083",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts": "3925c8909393114becdb204ca69d8e32d2033379"
   }
 }
