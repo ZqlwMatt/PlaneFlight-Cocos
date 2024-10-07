@@ -52,7 +52,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 25
+      "__id__": 27
     },
     "_id": "83b1ba08-a8ef-45e9-8f04-cd875e7a827b"
   },
@@ -84,13 +84,16 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 22
-      },
-      {
         "__id__": 23
       },
       {
         "__id__": 24
+      },
+      {
+        "__id__": 25
+      },
+      {
+        "__id__": 26
       }
     ],
     "_prefab": null,
@@ -715,7 +718,7 @@
     "_string": "开始游戏",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 45.025882352941174,
+    "_actualFontSize": 49.392941176470586,
     "_fontSize": 32,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -825,7 +828,11 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "clickEvents": [],
+    "clickEvents": [
+      {
+        "__id__": 22
+      }
+    ],
     "_interactable": true,
     "_transition": 2,
     "_normalColor": {
@@ -878,6 +885,16 @@
       "__id__": 15
     },
     "_id": "c2DKZztC9DQpt/mI56XAQq"
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 2
+    },
+    "component": "",
+    "_componentId": "2cd70TBtO1JTppd8ypMKVw6",
+    "handler": "onStartButtonClick",
+    "customEventData": ""
   },
   {
     "__type__": "cc.UITransform",
@@ -948,30 +965,42 @@
     "_id": "c5V1EV8IpMtrIvY1OE9t2u"
   },
   {
+    "__type__": "2cd70TBtO1JTppd8ypMKVw6",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "634u/KnU9E46pRoCswAsW3"
+  },
+  {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 26
-    },
-    "shadows": {
-      "__id__": 27
-    },
-    "_skybox": {
       "__id__": 28
     },
-    "fog": {
+    "shadows": {
       "__id__": 29
     },
-    "octree": {
+    "_skybox": {
       "__id__": 30
     },
-    "skin": {
+    "fog": {
       "__id__": 31
     },
-    "lightProbeInfo": {
+    "octree": {
       "__id__": 32
     },
-    "postSettings": {
+    "skin": {
       "__id__": 33
+    },
+    "lightProbeInfo": {
+      "__id__": 34
+    },
+    "postSettings": {
+      "__id__": 35
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false

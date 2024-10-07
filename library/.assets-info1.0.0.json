@@ -5,14 +5,14 @@
       "time": 1726817948406.7493
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes": {
-      "time": 1726818991146.7617,
+      "time": 1728283839947.7175,
       "uuid": "4b757463-b0e3-4f1f-b05d-c6cbf2541b15"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/01-Start.scene.meta": {
       "time": 1726818201393.7554
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/01-Start.scene": {
-      "time": 1726820423925.0066,
+      "time": 1728283820320.9724,
       "uuid": "83b1ba08-a8ef-45e9-8f04-cd875e7a827b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio.meta": {
@@ -537,8 +537,29 @@
       "uuid": "e2d33e0a-0459-4cf1-bfbc-74bf4a4e972b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Loading.anim": {
-      "time": 1726820110436.2847,
+      "time": 1728283212267.403,
       "uuid": "3d9f1ef5-5220-4e9f-86d5-795cfb71df35"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts.meta": {
+      "time": 1728282984915.6096
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts": {
+      "time": 1728283011618.0376,
+      "uuid": "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.meta": {
+      "time": 1728283011620.023
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts": {
+      "time": 1728283803691.0142,
+      "uuid": "2cd704c1-b4ed-494e-9a5d-f32a4c295c3a"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene.meta": {
+      "time": 1728283839949.8428
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
+      "time": 1728283839948.8274,
+      "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     }
   },
   "missing": {
@@ -911,6 +932,16 @@
       "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/image/resume_sel.png",
       "time": 1726818984988.6235,
       "removeTime": 1726819011393
+    },
+    "3abe6206-4c3a-460c-8e9b-0af5af30d14a": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scaripts",
+      "time": 1728283011618.0376,
+      "removeTime": 1728283470809
+    },
+    "2cd704c1-b4ed-494e-9a5d-f32a4c295c3a": {
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scaripts/StartUI.ts",
+      "time": 1728283011617.5898,
+      "removeTime": 1728283470810
     }
   }
 }

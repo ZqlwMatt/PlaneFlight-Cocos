@@ -17,7 +17,9 @@
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "2cd704c1-b4ed-494e-9a5d-f32a4c295c3a"
+      ]
     },
     "versionCode": 1
   },
@@ -1587,6 +1589,26 @@
   "e2d33e0a-0459-4cf1-bfbc-74bf4a4e972b": {
     "url": "db://assets/Animations",
     "value": {},
+    "versionCode": 1
+  },
+  "3abe6206-4c3a-460c-8e9b-0af5af30d14a": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2cd704c1-b4ed-494e-9a5d-f32a4c295c3a": {
+    "url": "db://assets/Scripts/StartUI.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "da109a1c-644e-4578-b703-a1f20d11576a": {
+    "url": "db://assets/Scenes/02-GameScene.scene",
+    "value": {
+      "depends": [
+        "da109a1c-644e-4578-b703-a1f20d11576a"
+      ],
+      "dependScripts": []
+    },
     "versionCode": 1
   }
 }
