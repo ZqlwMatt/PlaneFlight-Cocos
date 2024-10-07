@@ -544,7 +544,7 @@
       "time": 1728282984915.6096
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts": {
-      "time": 1728286063436.1501,
+      "time": 1728287203113.9702,
       "uuid": "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.meta": {
@@ -581,6 +581,27 @@
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "time": 1728286698283.3552,
       "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.meta": {
+      "time": 1728287203115.1892
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts": {
+      "time": 1728287328727.5952,
+      "uuid": "6ba29fa3-4a00-4efa-b405-fcbe0cb17d2b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs.meta": {
+      "time": 1728287350339.9817
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs": {
+      "time": 1728287354217.251,
+      "uuid": "424aecc4-8dbd-4330-8809-fc724d60be8d"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet1.prefab.meta": {
+      "time": 1728287354220.252
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet1.prefab": {
+      "time": 1728287354218.6602,
+      "uuid": "56a679a4-673f-4e9b-9262-73657509fd14"
     }
   },
   "missing": {

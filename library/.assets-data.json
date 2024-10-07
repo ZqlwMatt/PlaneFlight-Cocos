@@ -1633,5 +1633,27 @@
     "url": "db://assets/Scripts/Player.ts",
     "value": {},
     "versionCode": 1
+  },
+  "6ba29fa3-4a00-4efa-b405-fcbe0cb17d2b": {
+    "url": "db://assets/Scripts/Bullet.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "424aecc4-8dbd-4330-8809-fc724d60be8d": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "56a679a4-673f-4e9b-9262-73657509fd14": {
+    "url": "db://assets/Prefabs/Bullet1.prefab",
+    "value": {
+      "depends": [
+        "923d58b6-80c9-4c3b-aafd-7a1750746d98@f9941"
+      ],
+      "dependScripts": [
+        "6ba29fa3-4a00-4efa-b405-fcbe0cb17d2b"
+      ]
+    },
+    "versionCode": 1
   }
 }

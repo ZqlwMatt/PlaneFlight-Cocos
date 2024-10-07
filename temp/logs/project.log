@@ -230,3 +230,27 @@ at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/
 10-7-2024 15:44:45 - info: [PreviewInEditor] Forward render pipeline initialized.
 10-7-2024 15:44:45 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
 10-7-2024 15:44:51 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:48:13 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:48:13 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:48:13 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:48:13 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:48:13 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:48:13 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:48:14 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:48:18 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:48:25 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:48:25 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:48:25 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:48:25 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:48:26 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:48:26 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:48:26 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:48:35 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:50:00 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:50:00 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:50:00 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:50:00 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:50:00 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:50:00 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:50:00 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:50:03 - info: [PreviewInEditor] preview process is ready
