@@ -544,7 +544,7 @@
       "time": 1728282984915.6096
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts": {
-      "time": 1728283011618.0376,
+      "time": 1728284070159.4792,
       "uuid": "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.meta": {
@@ -558,8 +558,15 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728283839948.8274,
+      "time": 1728284205886.283,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
+      "time": 1728284070160.6
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts": {
+      "time": 1728284823925.3481,
+      "uuid": "d26cb5de-796b-46fb-873e-cc46eec8cbc8"
     }
   },
   "missing": {

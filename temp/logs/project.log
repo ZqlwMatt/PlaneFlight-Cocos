@@ -20,3 +20,60 @@ at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/
 10-7-2024 14:42:09 - error: [Assets] Invalid URLError: Invalid URL
     at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3410)
     at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:42 - warn: [Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script[Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at findVsCode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3509)  
+at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3274)  
+at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:42 - error: [Assets] Invalid URLError: Invalid URL
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3410)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:42 - error: [Assets] Invalid URLError: Invalid URL
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3410)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:43 - warn: [Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script[Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at findVsCode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3509)  
+at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3274)  
+at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:43 - error: [Assets] Invalid URLError: Invalid URL
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3410)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:43 - error: [Assets] Invalid URLError: Invalid URL
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3410)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:44 - warn: [Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script[Assets] Please set the application in {preferences} -> {program} -> {scriptEditor} to better open the script  
+at Object.warn (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1510)  
+at findVsCode (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3509)  
+at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3274)  
+at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:44 - error: [Assets] Invalid URLError: Invalid URL
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3410)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 14:54:44 - error: [Assets] Invalid URLError: Invalid URL
+    at Object.openCode [as open] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/handler/utils.ccc:1:3410)
+    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:526)
+10-7-2024 15:04:51 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:04:51 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:04:51 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:04:51 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:04:51 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:04:52 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:04:52 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:04:52 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:04:56 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:07:11 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:07:12 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:07:12 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:07:12 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:07:12 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:07:12 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:07:12 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-7-2024 15:08:06 - info: [PreviewInEditor] preview process is ready
+10-7-2024 15:10:59 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-7-2024 15:10:59 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-7-2024 15:10:59 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-7-2024 15:10:59 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-7-2024 15:10:59 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-7-2024 15:10:59 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-7-2024 15:11:00 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.

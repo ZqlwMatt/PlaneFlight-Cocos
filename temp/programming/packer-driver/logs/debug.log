@@ -234,3 +234,197 @@ Feature changed: false
 14:50:12 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
 14:50:12 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts as cce:/internal/x/cc.
 14:50:12 debug: Target(preview) ends with cost 52.41283303499222ms.
+14:54:30 debug: Dispatch build request for time accumulated 1 asset changes.
+14:54:30 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:54:30 debug: Target(editor) build started.
+14:54:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:40 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:58 GMT+0800 (中国标准时间)
+14:54:30 debug: Inspect cce:/internal/x/prerequisite-imports
+14:54:30 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:54:30 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+14:54:30 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+14:54:30 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:54:30 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:54:30 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:54:30 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+14:54:30 debug: Target(editor) ends with cost 39.398375034332275ms.
+14:54:30 debug: Target(preview) build started.
+14:54:30 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:40 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:58 GMT+0800 (中国标准时间)
+14:54:30 debug: Inspect cce:/internal/x/prerequisite-imports
+14:54:30 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:54:30 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+14:54:30 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+14:54:30 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:54:30 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:54:30 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:54:30 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+14:54:30 debug: Target(preview) ends with cost 26.78787499666214ms.
+14:56:34 debug: Dispatch build request for time accumulated 1 asset changes.
+14:56:34 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:56:34 debug: Target(editor) build started.
+14:56:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:02 GMT+0800 (中国标准时间)
+14:56:34 debug: Inspect cce:/internal/x/prerequisite-imports
+14:56:34 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:56:34 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+14:56:34 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 14:54:30 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 14:56:25 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+14:56:34 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+14:56:34 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:56:34 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:56:34 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:56:34 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+14:56:34 debug: Target(editor) ends with cost 57.68616700172424ms.
+14:56:34 debug: Target(preview) build started.
+14:56:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:20:58 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:02 GMT+0800 (中国标准时间)
+14:56:34 debug: Inspect cce:/internal/x/prerequisite-imports
+14:56:34 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:56:34 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+14:56:34 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 14:54:30 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 14:56:25 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+14:56:34 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+14:56:34 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:56:34 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:56:34 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:56:34 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+14:56:34 debug: Target(preview) ends with cost 53.61370801925659ms.
+14:58:14 debug: Dispatch build request for time accumulated 1 asset changes.
+14:58:14 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+14:58:14 debug: Target(editor) build started.
+14:58:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:42 GMT+0800 (中国标准时间)
+14:58:14 debug: Inspect cce:/internal/x/prerequisite-imports
+14:58:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:58:14 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+14:58:14 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 14:56:25 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 14:58:09 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+14:58:14 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+14:58:14 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:58:14 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:58:14 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:58:14 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+14:58:14 debug: Target(editor) ends with cost 37.124374985694885ms.
+14:58:14 debug: Target(preview) build started.
+14:58:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:02 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:42 GMT+0800 (中国标准时间)
+14:58:14 debug: Inspect cce:/internal/x/prerequisite-imports
+14:58:14 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+14:58:14 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+14:58:14 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 14:56:25 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 14:58:09 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+14:58:14 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+14:58:14 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:58:14 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:58:14 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+14:58:14 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+14:58:14 debug: Target(preview) ends with cost 85.86854201555252ms.
+15:00:42 debug: Dispatch build request for time accumulated 1 asset changes.
+15:00:42 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:00:42 debug: Target(editor) build started.
+15:00:42 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:27:10 GMT+0800 (中国标准时间)
+15:00:42 debug: Inspect cce:/internal/x/prerequisite-imports
+15:00:42 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:00:42 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:00:42 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 14:58:09 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:00:28 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:00:42 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:00:42 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:00:42 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:00:42 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:00:42 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:00:42 debug: Target(editor) ends with cost 41.16441601514816ms.
+15:00:42 debug: Target(preview) build started.
+15:00:42 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:42 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:27:10 GMT+0800 (中国标准时间)
+15:00:42 debug: Inspect cce:/internal/x/prerequisite-imports
+15:00:42 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:00:42 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:00:42 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 14:58:09 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:00:28 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:00:42 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:00:42 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:00:42 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:00:42 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:00:42 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:00:42 debug: Target(preview) ends with cost 55.19991600513458ms.
+15:03:03 debug: Dispatch build request for time accumulated 1 asset changes.
+15:03:03 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:03:03 debug: Target(editor) build started.
+15:03:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:27:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:29:31 GMT+0800 (中国标准时间)
+15:03:03 debug: Inspect cce:/internal/x/prerequisite-imports
+15:03:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:03:03 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:03:03 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 15:00:28 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:03:02 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:03:03 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:03:03 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:03:03 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:03:03 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:03:03 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:03:03 debug: Target(editor) ends with cost 33.2666249871254ms.
+15:03:03 debug: Target(preview) build started.
+15:03:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:27:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:29:31 GMT+0800 (中国标准时间)
+15:03:03 debug: Inspect cce:/internal/x/prerequisite-imports
+15:03:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:03:03 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:03:03 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 15:00:28 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:03:02 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:03:03 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:03:03 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:03:03 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:03:03 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:03:03 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:03:03 debug: Target(preview) ends with cost 36.28216600418091ms.
+15:04:00 debug: Dispatch build request for time accumulated 1 asset changes.
+15:04:00 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:04:00 debug: Target(editor) build started.
+15:04:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:29:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:30:28 GMT+0800 (中国标准时间)
+15:04:00 debug: Inspect cce:/internal/x/prerequisite-imports
+15:04:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:04:00 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:04:00 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 15:03:02 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:03:48 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:04:00 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:04:00 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:04:00 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:04:00 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:04:00 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:04:00 debug: Target(editor) ends with cost 37.882874965667725ms.
+15:04:00 debug: Target(preview) build started.
+15:04:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:29:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:30:28 GMT+0800 (中国标准时间)
+15:04:00 debug: Inspect cce:/internal/x/prerequisite-imports
+15:04:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:04:00 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:04:00 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 15:03:02 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:03:48 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:04:00 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:04:00 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:04:00 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:04:00 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:04:00 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:04:00 debug: Target(preview) ends with cost 37.12541699409485ms.
+15:07:10 debug: Dispatch build request for time accumulated 1 asset changes.
+15:07:10 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+15:07:10 debug: Target(editor) build started.
+15:07:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:33:38 GMT+0800 (中国标准时间)
+15:07:10 debug: Inspect cce:/internal/x/prerequisite-imports
+15:07:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:07:10 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:07:10 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 15:03:48 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:07:03 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:07:10 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:07:10 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:07:10 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:07:10 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:07:10 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:07:10 debug: Target(editor) ends with cost 38.182790994644165ms.
+15:07:10 debug: Target(preview) build started.
+15:07:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:33:38 GMT+0800 (中国标准时间)
+15:07:10 debug: Inspect cce:/internal/x/prerequisite-imports
+15:07:10 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+15:07:10 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+15:07:10 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts. Last mtime: Mon Oct 07 2024 15:03:48 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8, Current mtime: Mon Oct 07 2024 15:07:03 GMT+0800 (中国标准时间)@d26cb5de-796b-46fb-873e-cc46eec8cbc8
+15:07:10 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts
+15:07:10 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:07:10 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:07:10 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts as cce:/internal/x/cc.
+15:07:10 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+15:07:10 debug: Target(preview) ends with cost 36.36541700363159ms.
