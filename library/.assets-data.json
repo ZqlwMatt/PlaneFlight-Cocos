@@ -1614,12 +1614,13 @@
         "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde",
         "e893a2d5-f241-4d0c-8ab8-f359d2ad15e8",
         "e5ad0dab-5091-4e5f-9778-f84d601f6a7b",
-        "f33a635f-8225-41f9-92e7-17a2d5fabc88@f9941"
+        "d64d3cd3-fabf-4709-bad4-07324412c3b8"
       ],
       "dependScripts": [
         "d26cb5de-796b-46fb-873e-cc46eec8cbc8",
         "05f5b2f4-31b8-4fbe-b682-dab688817a5b",
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "036c7b8d-1f35-4966-8c5b-d990bce0854a"
       ]
     },
     "versionCode": 1
@@ -1763,6 +1764,25 @@
       "depends": [
         "24aad5dd-5355-45f0-ac71-376154adc3fe@f9941",
         "547224c3-bf7a-4bb2-978f-dcbb9493587b@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "036c7b8d-1f35-4966-8c5b-d990bce0854a": {
+    "url": "db://assets/Scripts/EnemyManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d64d3cd3-fabf-4709-bad4-07324412c3b8": {
+    "url": "db://assets/Prefabs/Enemy2.prefab",
+    "value": {
+      "depends": [
+        "f33a635f-8225-41f9-92e7-17a2d5fabc88@f9941",
+        "d62c46ce-28e4-4de0-b30b-8f0340848620",
+        "edc7b68d-3757-479e-9008-b13283f8180f"
+      ],
+      "dependScripts": [
+        "6a6f9a37-df33-42f9-9861-32ec804fbea5"
       ]
     },
     "versionCode": 1
