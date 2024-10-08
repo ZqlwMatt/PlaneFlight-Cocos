@@ -533,7 +533,7 @@
       "time": 1726819464756.9
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations": {
-      "time": 1728285382460.9316,
+      "time": 1728348804164.4124,
       "uuid": "e2d33e0a-0459-4cf1-bfbc-74bf4a4e972b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Loading.anim": {
@@ -544,7 +544,7 @@
       "time": 1728282984915.6096
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts": {
-      "time": 1728287203113.9702,
+      "time": 1728347383343.5225,
       "uuid": "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.meta": {
@@ -558,7 +558,7 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728347092533.2087,
+      "time": 1728348498421.4236,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
@@ -593,7 +593,7 @@
       "time": 1728287350339.9817
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs": {
-      "time": 1728287523223.9617,
+      "time": 1728348355066.639,
       "uuid": "424aecc4-8dbd-4330-8809-fc724d60be8d"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet1.prefab.meta": {
@@ -609,6 +609,62 @@
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet2.prefab": {
       "time": 1728287523225.0857,
       "uuid": "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.meta": {
+      "time": 1728347383344.7046
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
+      "time": 1728347992331.2932,
+      "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy0.prefab.meta": {
+      "time": 1728347520848.684
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy0.prefab": {
+      "time": 1728347520847.286,
+      "uuid": "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy0_Down.anim.meta": {
+      "time": 1728347609011.7742
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy0_Down.anim": {
+      "time": 1728347712195.3164,
+      "uuid": "e893a2d5-f241-4d0c-8ab8-f359d2ad15e8"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy1_Down.anim.meta": {
+      "time": 1728348158966.8086
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy1_Down.anim": {
+      "time": 1728348309295.0454,
+      "uuid": "6ab01188-32c1-4b6b-9140-9d45fbbfe427"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy1_Hit.anim.meta": {
+      "time": 1728348275317.9812
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy1_Hit.anim": {
+      "time": 1728348997812.133,
+      "uuid": "60ee0505-74d1-4684-885c-1e607bfcd561"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy1.prefab.meta": {
+      "time": 1728348355069.2979
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy1.prefab": {
+      "time": 1728348355068.0037,
+      "uuid": "e5ad0dab-5091-4e5f-9778-f84d601f6a7b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy2_Down.anim.meta": {
+      "time": 1728348637657.402
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy2_Down.anim": {
+      "time": 1728348783080.9373,
+      "uuid": "d62c46ce-28e4-4de0-b30b-8f0340848620"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy2_Hit.anim.meta": {
+      "time": 1728348804166.104
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy2_Hit.anim": {
+      "time": 1728348990713.5852,
+      "uuid": "edc7b68d-3757-479e-9008-b13283f8180f"
     }
   },
   "missing": {

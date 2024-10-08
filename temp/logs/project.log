@@ -552,3 +552,70 @@ at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/
 10-8-2024 08:23:43 - info: [PreviewInEditor] Forward render pipeline initialized.
 10-8-2024 08:23:43 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
 10-8-2024 08:24:51 - info: [PreviewInEditor] preview process is ready
+10-8-2024 08:31:15 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-8-2024 08:31:16 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-8-2024 08:31:16 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-8-2024 08:31:16 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-8-2024 08:31:16 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-8-2024 08:31:16 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-8-2024 08:31:16 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-8-2024 08:31:22 - info: [PreviewInEditor] preview process is ready
+10-8-2024 08:37:14 - error: [Window] Cannot convert undefined or null to objectTypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Object.update (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/contributions/ui-kit/ui-prop/types/object.ccc:1:822)
+    at Object.update (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/contributions/ui-kit/ui-prop/dump.ccc:1:4590)
+    at HTMLElement.initRender (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator-ui-kit/dist/renderer.ccc:2:1680938)
+    at HTMLElement.render (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator-ui-kit/dist/renderer.ccc:2:1680807)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/utils/prop.js:303:15
+    at Array.forEach (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/utils/prop.js:231:29
+    at Object.<anonymous> (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/components/base.js:14:5)
+    at HTMLElement.update (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator-ui-kit/dist/renderer.ccc:2:1684329)
+10-8-2024 08:39:30 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-8-2024 08:39:30 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-8-2024 08:39:30 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-8-2024 08:39:30 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-8-2024 08:39:30 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-8-2024 08:39:30 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-8-2024 08:39:31 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-8-2024 08:39:36 - info: [PreviewInEditor] preview process is ready
+10-8-2024 08:39:40 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-8-2024 08:39:40 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-8-2024 08:39:41 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-8-2024 08:39:41 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-8-2024 08:39:41 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-8-2024 08:39:41 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-8-2024 08:39:41 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-8-2024 08:39:44 - info: [PreviewInEditor] preview process is ready
+10-8-2024 08:39:44 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-8-2024 08:39:44 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-8-2024 08:39:45 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-8-2024 08:39:45 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-8-2024 08:39:45 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-8-2024 08:39:45 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-8-2024 08:39:45 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-8-2024 08:39:48 - info: [PreviewInEditor] preview process is ready
+10-8-2024 08:45:38 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-8-2024 08:45:38 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-8-2024 08:45:38 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-8-2024 08:45:38 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-8-2024 08:45:38 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-8-2024 08:45:38 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-8-2024 08:45:39 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-8-2024 08:45:45 - info: [PreviewInEditor] preview process is ready
+10-8-2024 08:48:19 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-8-2024 08:48:19 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-8-2024 08:48:19 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-8-2024 08:48:19 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-8-2024 08:48:19 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-8-2024 08:48:19 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-8-2024 08:48:19 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-8-2024 08:48:28 - info: [PreviewInEditor] preview process is ready
+10-8-2024 08:54:06 - warn: [Scene] current edit clip: 'edc7b68d-3757-479e-9008-b13283f8180f' but you want to operate: 'd62c46ce-28e4-4de0-b30b-8f0340848620Error: [Scene] current edit clip: 'edc7b68d-3757-479e-9008-b13283f8180f' but you want to operate: 'd62c46ce-28e4-4de0-b30b-8f0340848620
+    at AnimationManager.getPropValueAtFrame (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/animation/index.ccc:1:16609)
+    at AnimationSceneFacade.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/animation-scene-facade.ccc:1:2238)
+    at SceneFacadeManager.queryAnimationPropValueAtFrame (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:21962)
+    at step (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:732)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:401
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:2:338

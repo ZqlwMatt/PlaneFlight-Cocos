@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 64212336.320041,
+      "mTimestamp": 65203537.28808302,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -686,7 +686,7 @@
           }
         },
         {
-          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts",
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -695,21 +695,35 @@
             },
             "end": {
               "line": 5,
-              "column": 452
+              "column": 451
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 467
+            },
+            "end": {
+              "line": 5,
+              "column": 542
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 468
+              "column": 558
             },
             "end": {
               "line": 5,
-              "column": 544
+              "column": 634
             }
           }
         }
@@ -734,6 +748,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts"
           },
           "messages": []
         },
@@ -1036,6 +1057,58 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
+      "mTimestamp": {
+        "mtime": 1728347992331.2932,
+        "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
+      },
+      "chunkId": "f74855fb9053ec63ccacca84b5ff0c446c1b86ec",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 55
+            },
+            "end": {
+              "line": 1,
+              "column": 59
             }
           }
         }
