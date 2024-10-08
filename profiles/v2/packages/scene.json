@@ -897,6 +897,56 @@
       },
       "scale": 0.7
     },
+    "fb7f0244-ffc2-437d-857c-e9eb9a362b05": {
+      "position": {
+        "x": 239.24833333333333,
+        "y": 425.7516666666667,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 0,
+        "width": 336,
+        "height": 595
+      },
+      "scale": 0.7
+    },
+    "4a97ad0a-894d-4fd5-a07a-4202165a65f7": {
+      "position": {
+        "x": 239.26833333333335,
+        "y": 425.7316666666667,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 0,
+        "width": 336,
+        "height": 595
+      },
+      "scale": 0.7
+    },
     "da109a1c-644e-4578-b703-a1f20d11576a": {
       "position": {
         "x": 958,
@@ -958,6 +1008,8 @@
     "78e94c2a-a4ec-4ca4-803b-8dd95fb23c16",
     "89855746-66f1-4f16-8ea8-19fc7d2dab78",
     "6fd37c8d-fabd-4db0-9fdd-e6a613bb4810",
+    "fb7f0244-ffc2-437d-857c-e9eb9a362b05",
+    "4a97ad0a-894d-4fd5-a07a-4202165a65f7",
     "da109a1c-644e-4578-b703-a1f20d11576a"
   ],
   "camera": {
@@ -984,5 +1036,8 @@
   "scene_view": {
     "isSceneLightOn": true,
     "output_device": "__default_design__"
+  },
+  "game-view": {
+    "fps": 120
   }
 }

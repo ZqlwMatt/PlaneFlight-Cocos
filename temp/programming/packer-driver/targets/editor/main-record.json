@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 63990274.94275004,
+      "mTimestamp": 64212336.320041,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1015,7 +1015,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts": {
       "mTimestamp": {
-        "mtime": 1728287328727.5952,
+        "mtime": 1728347012792.7732,
         "uuid": "6ba29fa3-4a00-4efa-b405-fcbe0cb17d2b"
       },
       "chunkId": "6922262f0b98e063967c4f56d8a2f590bd528683",
