@@ -2,8 +2,10 @@
   "state": {
     "expandUuids": [
       "db://assets",
-      "85032e42-66f3-4bcf-92a5-0a4110d0fda9",
-      "923d58b6-80c9-4c3b-aafd-7a1750746d98"
+      "923d58b6-80c9-4c3b-aafd-7a1750746d98",
+      "424aecc4-8dbd-4330-8809-fc724d60be8d",
+      "4b757463-b0e3-4f1f-b05d-c6cbf2541b15",
+      "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
     ],
     "sortType": "name"
   }

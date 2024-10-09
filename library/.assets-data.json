@@ -1612,7 +1612,6 @@
         "56a679a4-673f-4e9b-9262-73657509fd14",
         "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba",
         "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde",
-        "e893a2d5-f241-4d0c-8ab8-f359d2ad15e8",
         "e5ad0dab-5091-4e5f-9778-f84d601f6a7b",
         "d64d3cd3-fabf-4709-bad4-07324412c3b8"
       ],
@@ -1688,7 +1687,8 @@
     "url": "db://assets/Prefabs/Enemy0.prefab",
     "value": {
       "depends": [
-        "12153aba-5716-4b1a-be69-160bf778b327@f9941"
+        "12153aba-5716-4b1a-be69-160bf778b327@f9941",
+        "e893a2d5-f241-4d0c-8ab8-f359d2ad15e8"
       ],
       "dependScripts": [
         "6a6f9a37-df33-42f9-9861-32ec804fbea5"
