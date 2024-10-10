@@ -1,7 +1,8 @@
-import { _decorator, Component, EventTouch, Input, input, instantiate, Node, Prefab, Vec3 } from 'cc';
+import { _decorator, Animation, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 enum ShootType {
+    None,
     OneShoot,
     TwoShoot
 };
@@ -33,15 +34,40 @@ export class Player extends Component {
 
     shootTimer:number = 0.0;
 
+    @property
+    lifeCount:number = 3;
+    collider:Collider2D = null;
+    @property(Animation)
+    anim:Animation = null;
+    @property(String)
+    animHit:string = "";
+    @property(String)
+    animDown:string = "";
+
+    @property
+    invincibleTime:number = 1;
+    invincibleTimer:number = 0;
+    isInvincible:boolean = false;
+
     // 注册事件
     protected onLoad(): void {
         input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
+        this.collider = this.getComponent(Collider2D);
+        if (this.collider) {
+            this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        }
     }
     protected onDestroy(): void {
         input.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
+        this.collider = this.getComponent(Collider2D);
+        if (this.collider) {
+            this.collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+        }
     }
 
     onTouchMove(event:EventTouch) {
+        if (this.lifeCount <= 0) return;
+
         const p = this.node.position;
         
         let targetPosition = new Vec3(p.x + event.getDeltaX(), p.y + event.getDeltaY(), p.z);
@@ -73,6 +99,14 @@ export class Player extends Component {
                 this.twoShoot(deltaTime);
                 break;
         }
+
+        if (this.isInvincible) {
+            this.invincibleTimer += deltaTime;
+            if (this.invincibleTimer > this.invincibleTime) {
+                this.isInvincible = false;
+                this.invincibleTimer = 0;
+            }
+        }
     }
 
     oneShoot(deltaTime: number) {
@@ -97,6 +131,26 @@ export class Player extends Component {
             this.bulletParent.addChild(bullet2);
             bullet1.setWorldPosition(this.position2.worldPosition);
             bullet2.setWorldPosition(this.position3.worldPosition);
+        }
+    }
+
+    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        if (this.isInvincible) return;
+        
+        this.isInvincible = true;
+        this.lifeCount -= 1;
+        if (this.lifeCount > 0) {
+            this.anim.play(this.animHit);
+        }
+        else {
+            this.anim.play(this.animDown);
+        }
+
+        if (this.lifeCount <= 0) {
+            this.shootType = ShootType.None;
+            if (this.collider) {
+                this.collider.enabled = false;
+            }
         }
     }
 }

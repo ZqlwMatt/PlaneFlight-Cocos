@@ -1087,7 +1087,7 @@
     "versionCode": 1
   },
   "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28": {
-    "url": "db://assets/Image/hero_blowup_n1.png",
+    "url": "db://assets/Image/hero_down1.png",
     "value": {
       "depends": []
     },
@@ -1103,7 +1103,7 @@
     "versionCode": 1
   },
   "663352af-8cb8-47fa-a819-ee754d4393fb": {
-    "url": "db://assets/Image/hero_blowup_n2.png",
+    "url": "db://assets/Image/hero_down2.png",
     "value": {
       "depends": []
     },
@@ -1137,7 +1137,7 @@
     "versionCode": 1
   },
   "58fea8ae-e10e-4a72-9f39-7cb40f710d5a": {
-    "url": "db://assets/Image/hero_blowup_n3.png",
+    "url": "db://assets/Image/hero_down3.png",
     "value": {
       "depends": []
     },
@@ -1153,7 +1153,7 @@
     "versionCode": 1
   },
   "d2b5b62f-1ed7-4284-8318-c63833b19471": {
-    "url": "db://assets/Image/hero_blowup_n4.png",
+    "url": "db://assets/Image/hero_down4.png",
     "value": {
       "depends": []
     },
@@ -1169,7 +1169,7 @@
     "versionCode": 1
   },
   "663352af-8cb8-47fa-a819-ee754d4393fb@6c48a": {
-    "url": "db://assets/Image/hero_blowup_n2.png@6c48a",
+    "url": "db://assets/Image/hero_down2.png@6c48a",
     "value": {
       "depends": [
         "663352af-8cb8-47fa-a819-ee754d4393fb"
@@ -1178,7 +1178,7 @@
     "versionCode": 1
   },
   "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28@6c48a": {
-    "url": "db://assets/Image/hero_blowup_n1.png@6c48a",
+    "url": "db://assets/Image/hero_down1.png@6c48a",
     "value": {
       "depends": [
         "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28"
@@ -1196,7 +1196,7 @@
     "versionCode": 1
   },
   "663352af-8cb8-47fa-a819-ee754d4393fb@f9941": {
-    "url": "db://assets/Image/hero_blowup_n2.png@f9941",
+    "url": "db://assets/Image/hero_down2.png@f9941",
     "value": {
       "depends": [
         "663352af-8cb8-47fa-a819-ee754d4393fb@6c48a"
@@ -1219,7 +1219,7 @@
     "versionCode": 1
   },
   "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28@f9941": {
-    "url": "db://assets/Image/hero_blowup_n1.png@f9941",
+    "url": "db://assets/Image/hero_down1.png@f9941",
     "value": {
       "depends": [
         "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28@6c48a"
@@ -1235,7 +1235,7 @@
     "versionCode": 1
   },
   "58fea8ae-e10e-4a72-9f39-7cb40f710d5a@6c48a": {
-    "url": "db://assets/Image/hero_blowup_n3.png@6c48a",
+    "url": "db://assets/Image/hero_down3.png@6c48a",
     "value": {
       "depends": [
         "58fea8ae-e10e-4a72-9f39-7cb40f710d5a"
@@ -1244,7 +1244,7 @@
     "versionCode": 1
   },
   "58fea8ae-e10e-4a72-9f39-7cb40f710d5a@f9941": {
-    "url": "db://assets/Image/hero_blowup_n3.png@f9941",
+    "url": "db://assets/Image/hero_down3.png@f9941",
     "value": {
       "depends": [
         "58fea8ae-e10e-4a72-9f39-7cb40f710d5a@6c48a"
@@ -1253,7 +1253,7 @@
     "versionCode": 1
   },
   "d2b5b62f-1ed7-4284-8318-c63833b19471@6c48a": {
-    "url": "db://assets/Image/hero_blowup_n4.png@6c48a",
+    "url": "db://assets/Image/hero_down4.png@6c48a",
     "value": {
       "depends": [
         "d2b5b62f-1ed7-4284-8318-c63833b19471"
@@ -1269,7 +1269,7 @@
     "versionCode": 1
   },
   "d2b5b62f-1ed7-4284-8318-c63833b19471@f9941": {
-    "url": "db://assets/Image/hero_blowup_n4.png@f9941",
+    "url": "db://assets/Image/hero_down4.png@f9941",
     "value": {
       "depends": [
         "d2b5b62f-1ed7-4284-8318-c63833b19471@6c48a"
@@ -1609,6 +1609,8 @@
         "e3b487d0-36be-4929-af9e-094106b36c89@f9941",
         "5bf3751f-f171-431f-ad14-e7b9d1121065@f9941",
         "c0b1dae4-face-4473-83cb-5622e2d8821a",
+        "0a5ec9f1-d923-4394-9e54-a410735c037a",
+        "49887e2c-9257-4d59-8ba3-295f554e27b8",
         "56a679a4-673f-4e9b-9262-73657509fd14",
         "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba",
         "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde",
@@ -1784,6 +1786,25 @@
       "dependScripts": [
         "6a6f9a37-df33-42f9-9861-32ec804fbea5"
       ]
+    },
+    "versionCode": 1
+  },
+  "0a5ec9f1-d923-4394-9e54-a410735c037a": {
+    "url": "db://assets/Animations/Player_Down.anim",
+    "value": {
+      "depends": [
+        "f3eeeb87-bbbe-46df-95b2-00e7ff85ba28@f9941",
+        "663352af-8cb8-47fa-a819-ee754d4393fb@f9941",
+        "58fea8ae-e10e-4a72-9f39-7cb40f710d5a@f9941",
+        "d2b5b62f-1ed7-4284-8318-c63833b19471@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "49887e2c-9257-4d59-8ba3-295f554e27b8": {
+    "url": "db://assets/Animations/Player_Hit.anim",
+    "value": {
+      "depends": []
     },
     "versionCode": 1
   }

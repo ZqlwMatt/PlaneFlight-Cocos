@@ -24,7 +24,6 @@ export class Enemy extends Component {
         // this.anim.play();
         this.collider = this.getComponent(Collider2D);
         if (this.collider) {
-            // console.log("collider");
             this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
 
@@ -60,7 +59,10 @@ export class Enemy extends Component {
     }
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
-        otherCollider.enabled = false;
+
+        if (otherCollider.getComponent('Bullet')) {
+            otherCollider.enabled = false;
+        }
 
         this.hp -= 1;
 
