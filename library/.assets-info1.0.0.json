@@ -505,7 +505,7 @@
       "time": 1726819464756.9
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations": {
-      "time": 1728544323479.2876,
+      "time": 1728546611226.4038,
       "uuid": "e2d33e0a-0459-4cf1-bfbc-74bf4a4e972b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Loading.anim": {
@@ -516,7 +516,7 @@
       "time": 1728282984915.6096
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts": {
-      "time": 1728376006264.713,
+      "time": 1728546434934.5457,
       "uuid": "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.meta": {
@@ -530,7 +530,7 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728544977287.1775,
+      "time": 1728546981168.0042,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
@@ -565,7 +565,7 @@
       "time": 1728287350339.9817
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs": {
-      "time": 1728376954159.9126,
+      "time": 1728546980395.0369,
       "uuid": "424aecc4-8dbd-4330-8809-fc724d60be8d"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet1.prefab.meta": {
@@ -693,6 +693,27 @@
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Player_Hit.anim": {
       "time": 1728544507676.1843,
       "uuid": "49887e2c-9257-4d59-8ba3-295f554e27b8"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.meta": {
+      "time": 1728546434936.115
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": {
+      "time": 1728546498568.522,
+      "uuid": "5880a89d-1f06-4b06-872c-224db3a4ef3b"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Reward_Idle.anim.meta": {
+      "time": 1728546611243.2446
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Reward_Idle.anim": {
+      "time": 1728546941189.4424,
+      "uuid": "e7f699a9-baa4-4740-8a7d-e30245c75167"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Reward1.prefab.meta": {
+      "time": 1728546980398.983
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Reward1.prefab": {
+      "time": 1728546980397.0305,
+      "uuid": "21857b16-457c-47de-9a35-ab1025d81238"
     }
   },
   "missing": {

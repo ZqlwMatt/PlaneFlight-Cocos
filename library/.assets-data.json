@@ -1615,7 +1615,8 @@
         "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba",
         "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde",
         "e5ad0dab-5091-4e5f-9778-f84d601f6a7b",
-        "d64d3cd3-fabf-4709-bad4-07324412c3b8"
+        "d64d3cd3-fabf-4709-bad4-07324412c3b8",
+        "21857b16-457c-47de-9a35-ab1025d81238"
       ],
       "dependScripts": [
         "d26cb5de-796b-46fb-873e-cc46eec8cbc8",
@@ -1805,6 +1806,31 @@
     "url": "db://assets/Animations/Player_Hit.anim",
     "value": {
       "depends": []
+    },
+    "versionCode": 1
+  },
+  "5880a89d-1f06-4b06-872c-224db3a4ef3b": {
+    "url": "db://assets/Scripts/Reward.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e7f699a9-baa4-4740-8a7d-e30245c75167": {
+    "url": "db://assets/Animations/Reward_Idle.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "21857b16-457c-47de-9a35-ab1025d81238": {
+    "url": "db://assets/Prefabs/Reward1.prefab",
+    "value": {
+      "depends": [
+        "b41c2d56-eb97-40bc-b685-ed4e3b0a28e9@f9941",
+        "e7f699a9-baa4-4740-8a7d-e30245c75167"
+      ],
+      "dependScripts": [
+        "5880a89d-1f06-4b06-872c-224db3a4ef3b"
+      ]
     },
     "versionCode": 1
   }

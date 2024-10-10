@@ -8,6 +8,7 @@
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": "./chunks/f7/f74855fb9053ec63ccacca84b5ff0c446c1b86ec.js",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts": "./chunks/a8/a81822d777b3c4fbb3646598e36bf03da7bf05f2.js",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": "./chunks/4e/4ee4b745e195651d43d93cea5e0e627822e7c083.js",
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": "./chunks/3c/3cc4255b11df13a3f23ddb02acf7cac1802a04d1.js",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts": "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js"
   },
   "scopes": {
@@ -39,9 +40,13 @@
       "__unresolved_3": "./chunks/f7/f74855fb9053ec63ccacca84b5ff0c446c1b86ec.js",
       "__unresolved_4": "./chunks/a8/a81822d777b3c4fbb3646598e36bf03da7bf05f2.js",
       "__unresolved_5": "./chunks/4e/4ee4b745e195651d43d93cea5e0e627822e7c083.js",
-      "__unresolved_6": "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js"
+      "__unresolved_6": "./chunks/3c/3cc4255b11df13a3f23ddb02acf7cac1802a04d1.js",
+      "__unresolved_7": "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js"
     },
     "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/3c/3cc4255b11df13a3f23ddb02acf7cac1802a04d1.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/4e/4ee4b745e195651d43d93cea5e0e627822e7c083.js": {

@@ -222,6 +222,18 @@
       },
       "timestamp": 1728545091203
     },
+    "4ee4b745e195651d43d93cea5e0e627822e7c083": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1728545988712
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -269,14 +281,21 @@
         "__unresolved_6": {
           "resolved": {
             "type": "chunk",
+            "id": "3cc4255b11df13a3f23ddb02acf7cac1802a04d1"
+          },
+          "messages": []
+        },
+        "__unresolved_7": {
+          "resolved": {
+            "type": "chunk",
             "id": "3925c8909393114becdb204ca69d8e32d2033379"
           },
           "messages": []
         }
       },
-      "timestamp": 1728545988660
+      "timestamp": 1728546507004
     },
-    "4ee4b745e195651d43d93cea5e0e627822e7c083": {
+    "3cc4255b11df13a3f23ddb02acf7cac1802a04d1": {
       "imports": {
         "cc": {
           "resolved": {
@@ -286,7 +305,7 @@
           "messages": []
         }
       },
-      "timestamp": 1728545988712
+      "timestamp": 1728546507024
     }
   },
   "entries": {
@@ -298,6 +317,7 @@
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": "f74855fb9053ec63ccacca84b5ff0c446c1b86ec",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts": "a81822d777b3c4fbb3646598e36bf03da7bf05f2",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": "4ee4b745e195651d43d93cea5e0e627822e7c083",
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": "3cc4255b11df13a3f23ddb02acf7cac1802a04d1",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts": "3925c8909393114becdb204ca69d8e32d2033379"
   }
 }
