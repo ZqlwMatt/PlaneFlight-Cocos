@@ -1,8 +1,16 @@
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
 
+enum RewardType {
+    TwoShoot,
+    Bomb
+}
+
 @ccclass('Reward')
 export class Reward extends Component {
+
+    @property
+    rewardType:RewardType = RewardType.TwoShoot;
 
     @property
     speed:number = 100;

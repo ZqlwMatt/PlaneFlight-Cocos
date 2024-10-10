@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "Reward1",
+    "_name": "Reward1_TwoShoot",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_native": "",
@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Reward1",
+    "_name": "Reward1_TwoShoot",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
@@ -190,8 +190,8 @@
       },
       {
         "__type__": "cc.Vec2",
-        "x": -29,
-        "y": 16.5
+        "x": -27.4,
+        "y": 16.7
       },
       {
         "__type__": "cc.Vec2",
@@ -385,8 +385,8 @@
       },
       {
         "__type__": "cc.Vec2",
-        "x": 29,
-        "y": 19.5
+        "x": 27.1,
+        "y": 19.1
       },
       {
         "__type__": "cc.Vec2",
@@ -461,6 +461,7 @@
     "__prefab": {
       "__id__": 11
     },
+    "rewardType": 1,
     "speed": 140,
     "_id": ""
   },
