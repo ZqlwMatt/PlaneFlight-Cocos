@@ -1,4 +1,4 @@
-import { _decorator, Animation, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Vec3 } from 'cc';
+import { _decorator, Animation, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Sprite, Vec3 } from 'cc';
 import { Reward, RewardType } from './Reward';
 const { ccclass, property } = _decorator;
 
@@ -148,16 +148,7 @@ export class Player extends Component {
 
         const reward = otherCollider.getComponent(Reward);
         if (reward) {
-            switch(reward.rewardType) {
-                case RewardType.TwoShoot:
-                    console.log("Reward.TwoShoot");
-                    this.transitionToTwoshoot();
-                    break;
-                case RewardType.Bomb:
-                    console.log("Reward.Bomb");
-                    this.lifeCount += 1;
-                    break;
-            }
+            this.onContactToReward(reward);
         }
         else {
             this.onContactToEnemy();
@@ -170,6 +161,23 @@ export class Player extends Component {
     transitionToTwoshoot() {
         this.shootType = ShootType.TwoShoot;
         this.twoShootTimer = 0;
+    }
+
+    onContactToReward(reward:Reward) {
+        switch(reward.rewardType) {
+            case RewardType.TwoShoot:
+                console.log("Reward.TwoShoot");
+                this.transitionToTwoshoot();
+                break;
+            case RewardType.Bomb:
+                console.log("Reward.Bomb");
+                this.lifeCount += 1;
+                break;
+        }
+
+        // 禁止碰撞与显示
+        reward.getComponent(Collider2D).enabled = false;
+        reward.getComponent(Sprite).enabled = false;
     }
 
     onContactToEnemy() {

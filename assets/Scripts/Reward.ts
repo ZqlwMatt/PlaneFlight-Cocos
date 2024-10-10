@@ -22,6 +22,10 @@ export class Reward extends Component {
     update(deltaTime: number) {
         const p = this.node.position;
         this.node.setPosition(p.x, p.y - this.speed * deltaTime, p.z);
+
+        if (this.node.position.y < -580) {
+            this.node.destroy();
+        }
     }
 }
 

@@ -1,4 +1,5 @@
-import { _decorator, Animation, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsSystem2D } from 'cc';
+import { _decorator, Animation, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsSystem2D, Sprite } from 'cc';
+import { Bullet } from './Bullet';
 const { ccclass, property } = _decorator;
 
 @ccclass('Enemy')
@@ -60,8 +61,9 @@ export class Enemy extends Component {
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
 
-        if (otherCollider.getComponent('Bullet')) {
+        if (otherCollider.getComponent(Bullet)) {
             otherCollider.enabled = false;
+            otherCollider.getComponent(Sprite).enabled = false;
         }
 
         this.hp -= 1;
