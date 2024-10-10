@@ -1,4 +1,5 @@
 import { _decorator, Animation, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Vec3 } from 'cc';
+import { Reward, RewardType } from './Reward';
 const { ccclass, property } = _decorator;
 
 enum ShootType {
@@ -43,6 +44,10 @@ export class Player extends Component {
     animHit:string = "";
     @property(String)
     animDown:string = "";
+
+    @property
+    twoShootTime:number = 5;
+    twoShootTimer:number = 0;
 
     @property
     invincibleTime:number = 1;
@@ -121,6 +126,11 @@ export class Player extends Component {
     }
 
     twoShoot(deltaTime: number) {
+        this.twoShootTimer += deltaTime;
+        if (this.twoShootTimer >= this.twoShootTime) {
+            this.transitionToOneShoot();
+        }
+
         this.shootTimer += deltaTime;
         if (this.shootTimer >= this.shootRate) {
             this.shootTimer = 0;
@@ -135,6 +145,34 @@ export class Player extends Component {
     }
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+
+        const reward = otherCollider.getComponent(Reward);
+        if (reward) {
+            switch(reward.rewardType) {
+                case RewardType.TwoShoot:
+                    console.log("Reward.TwoShoot");
+                    this.transitionToTwoshoot();
+                    break;
+                case RewardType.Bomb:
+                    console.log("Reward.Bomb");
+                    this.lifeCount += 1;
+                    break;
+            }
+        }
+        else {
+            this.onContactToEnemy();
+        }
+    }
+
+    transitionToOneShoot() {
+        this.shootType = ShootType.OneShoot;
+    }
+    transitionToTwoshoot() {
+        this.shootType = ShootType.TwoShoot;
+        this.twoShootTimer = 0;
+    }
+
+    onContactToEnemy() {
         if (this.isInvincible) return;
         
         this.isInvincible = true;

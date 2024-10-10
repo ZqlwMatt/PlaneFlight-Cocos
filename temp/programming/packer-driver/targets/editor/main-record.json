@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 435913.2073750496,
+      "mTimestamp": 1746596.9123330116,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1026,11 +1026,15 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1728545987617.2256,
+        "mtime": 1728551089819.7715,
         "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       },
       "chunkId": "4ee4b745e195651d43d93cea5e0e627822e7c083",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -1049,6 +1053,20 @@
               "column": 158
             }
           }
+        },
+        {
+          "value": "./Reward",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1056,7 +1074,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1071,6 +1089,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts"
           },
           "messages": []
         }
@@ -1234,7 +1266,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": {
       "mTimestamp": {
-        "mtime": 1728549402855.2424,
+        "mtime": 1728550334091.6663,
         "uuid": "5880a89d-1f06-4b06-872c-224db3a4ef3b"
       },
       "chunkId": "3cc4255b11df13a3f23ddb02acf7cac1802a04d1",
@@ -1283,6 +1315,13 @@
           "messages": []
         }
       ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1728549344162,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
     }
   }
 }
