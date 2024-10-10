@@ -26,10 +26,16 @@
     "_components": [
       {
         "__id__": 10
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 14
       }
     ],
     "_prefab": {
-      "__id__": 12
+      "__id__": 16
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -248,12 +254,109 @@
     "anim": {
       "__id__": 7
     },
-    "hp": 1,
+    "hp": 3,
+    "animHit": "Enemy1_Hit",
+    "animDown": "Enemy1_Down",
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "13a8BMeqlINYlAuXQ5r9Mw"
+  },
+  {
+    "__type__": "cc.PolygonCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 13
+    },
+    "tag": 0,
+    "_group": 1,
+    "_density": 1,
+    "_sensor": false,
+    "_friction": 0.2,
+    "_restitution": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": -6.2,
+        "y": -44.1
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 7,
+        "y": -43.9
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 35,
+        "y": -17.2
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 34.5,
+        "y": 14.6
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -34.4,
+        "y": 15
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -34.5,
+        "y": -18.2
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "15eaFH/DlLqbZ9ENMJ5FaI"
+  },
+  {
+    "__type__": "cc.RigidBody2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 15
+    },
+    "enabledContactListener": true,
+    "bullet": false,
+    "awakeOnLoad": true,
+    "_group": 4,
+    "_type": 1,
+    "_allowSleep": false,
+    "_gravityScale": 1,
+    "_linearDamping": 0,
+    "_angularDamping": 0,
+    "_linearVelocity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_angularVelocity": 0,
+    "_fixedRotation": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "65/3ue1TZC0ZMmcQqOat19"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -264,6 +367,6 @@
       "__id__": 0
     },
     "fileId": "24D3mGf3dLiIzfxaPNAURE",
-    "targetOverrides": null
+    "targetOverrides": []
   }
 ]

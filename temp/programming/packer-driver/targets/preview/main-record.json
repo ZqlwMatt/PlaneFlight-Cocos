@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6515.896624982357,
+      "mTimestamp": 7466.044166088104,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1859655.383957982,
+      "mTimestamp": 1377683.7852079868,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -878,7 +878,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1728437413622.4844,
+        "mtime": 1728523914890.1128,
         "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
       },
       "chunkId": "f74855fb9053ec63ccacca84b5ff0c446c1b86ec",
@@ -894,11 +894,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 99
+              "column": 118
             },
             "end": {
               "line": 1,
-              "column": 103
+              "column": 122
             }
           }
         }

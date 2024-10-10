@@ -1,4 +1,4 @@
-import { _decorator, Animation, Collider2D, Component, Contact2DType, Node, PhysicsSystem2D } from 'cc';
+import { _decorator, Animation, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsSystem2D } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Enemy')
@@ -12,6 +12,11 @@ export class Enemy extends Component {
 
     @property
     hp:number = 1;
+
+    @property(String)
+    animHit:string = "";
+    @property(String)
+    animDown:string = "";
 
     collider:Collider2D = null;
 
@@ -54,15 +59,22 @@ export class Enemy extends Component {
         }
     }
 
-    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D) {
+    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        otherCollider.enabled = false;
+
         this.hp -= 1;
-        this.anim.play();
-        if (this.collider) {
-            // collider.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-            this.collider.enabled = false;
+
+        if (this.hp > 0) {
+            this.anim.play(this.animHit);
+        }
+        else {
+            this.anim.play(this.animDown);
         }
 
         if (this.hp <= 0) {
+            if (this.collider) {
+                this.collider.enabled = false;
+            }
             this.scheduleOnce(function() {
                 this.node.destroy();
             }, 1);

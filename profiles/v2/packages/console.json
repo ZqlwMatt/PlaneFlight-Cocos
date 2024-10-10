@@ -5,8 +5,7 @@
     "filterTypes": [
       "error",
       "log",
-      "info",
-      "warn"
+      "info"
     ]
   }
 }

@@ -558,7 +558,7 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728437258985.7053,
+      "time": 1728525094680.1904,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
@@ -600,28 +600,28 @@
       "time": 1728287354220.252
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet1.prefab": {
-      "time": 1728380294690.157,
+      "time": 1728525149279.6216,
       "uuid": "56a679a4-673f-4e9b-9262-73657509fd14"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet2.prefab.meta": {
       "time": 1728287523226.2708
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet2.prefab": {
-      "time": 1728380289220.1172,
+      "time": 1728525154403.6033,
       "uuid": "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.meta": {
       "time": 1728347383344.7046
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
-      "time": 1728437413622.4844,
+      "time": 1728523914890.1128,
       "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy0.prefab.meta": {
       "time": 1728347520848.684
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy0.prefab": {
-      "time": 1728437467868.538,
+      "time": 1728525133474.1746,
       "uuid": "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy0_Down.anim.meta": {
@@ -649,7 +649,7 @@
       "time": 1728348355069.2979
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy1.prefab": {
-      "time": 1728437469715.405,
+      "time": 1728525130655.7617,
       "uuid": "e5ad0dab-5091-4e5f-9778-f84d601f6a7b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy2_Down.anim.meta": {
@@ -677,7 +677,7 @@
       "time": 1728376954162.3284
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy2.prefab": {
-      "time": 1728437471534.1323,
+      "time": 1728525128010.3176,
       "uuid": "d64d3cd3-fabf-4709-bad4-07324412c3b8"
     }
   },
