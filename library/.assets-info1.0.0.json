@@ -516,7 +516,7 @@
       "time": 1728282984915.6096
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts": {
-      "time": 1728546434934.5457,
+      "time": 1728651662590.9814,
       "uuid": "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.meta": {
@@ -530,7 +530,7 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728551145429.7727,
+      "time": 1728652302955.784,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
@@ -551,7 +551,7 @@
       "time": 1728286063437.5
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
-      "time": 1728551717229.0847,
+      "time": 1728652516196.58,
       "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.meta": {
@@ -698,7 +698,7 @@
       "time": 1728546434936.115
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": {
-      "time": 1728550334091.6663,
+      "time": 1728551756341.9688,
       "uuid": "5880a89d-1f06-4b06-872c-224db3a4ef3b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Reward_Idle.anim.meta": {
@@ -721,6 +721,13 @@
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Reward1_TwoShoot.prefab": {
       "time": 1728547546889.0833,
       "uuid": "21857b16-457c-47de-9a35-ab1025d81238"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.meta": {
+      "time": 1728651662592.1704
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
+      "time": 1728652204072.7268,
+      "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
     }
   },
   "missing": {

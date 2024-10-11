@@ -1623,7 +1623,8 @@
         "d26cb5de-796b-46fb-873e-cc46eec8cbc8",
         "05f5b2f4-31b8-4fbe-b682-dab688817a5b",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "036c7b8d-1f35-4966-8c5b-d990bce0854a"
+        "036c7b8d-1f35-4966-8c5b-d990bce0854a",
+        "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       ]
     },
     "versionCode": 1
@@ -1846,6 +1847,11 @@
         "5880a89d-1f06-4b06-872c-224db3a4ef3b"
       ]
     },
+    "versionCode": 1
+  },
+  "c632bae7-6570-4d7a-9d93-f1deb7a93a25": {
+    "url": "db://assets/Scripts/GameManager.ts",
+    "value": {},
     "versionCode": 1
   }
 }

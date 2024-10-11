@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6572.604625105858,
+      "mTimestamp": 6360.092290997505,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2373703.766375065,
+      "mTimestamp": 973940.533583045,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -714,7 +714,7 @@
           }
         },
         {
-          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts",
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -723,35 +723,49 @@
             },
             "end": {
               "line": 5,
-              "column": 639
+              "column": 644
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 660
+            },
+            "end": {
+              "line": 5,
+              "column": 735
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 655
+              "column": 751
             },
             "end": {
               "line": 5,
-              "column": 730
+              "column": 826
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 746
+              "column": 842
             },
             "end": {
               "line": 5,
-              "column": 822
+              "column": 918
             }
           }
         }
@@ -790,6 +804,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts"
           },
           "messages": []
         },
@@ -1026,7 +1047,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1728551717229.0847,
+        "mtime": 1728652516196.58,
         "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       },
       "chunkId": "4ee4b745e195651d43d93cea5e0e627822e7c083",
@@ -1067,6 +1088,20 @@
               "column": 45
             }
           }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1103,6 +1138,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts"
           },
           "messages": []
         }
@@ -1298,7 +1340,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": {
       "mTimestamp": {
-        "mtime": 1728550334091.6663,
+        "mtime": 1728551756341.9688,
         "uuid": "5880a89d-1f06-4b06-872c-224db3a4ef3b"
       },
       "chunkId": "3cc4255b11df13a3f23ddb02acf7cac1802a04d1",
@@ -1349,11 +1391,63 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1728549344162,
+      "mTimestamp": 1728651543718,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
       "resolutions": []
+    },
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1728652204072.7268,
+        "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
+      },
+      "chunkId": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
     }
   }
 }

@@ -1,5 +1,6 @@
 import { _decorator, Animation, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Sprite, Vec3 } from 'cc';
 import { Reward, RewardType } from './Reward';
+import { GameManager } from './GameManager';
 const { ccclass, property } = _decorator;
 
 enum ShootType {
@@ -144,10 +145,13 @@ export class Player extends Component {
         }
     }
 
-    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+    lastReward:Reward = null;
 
+    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         const reward = otherCollider.getComponent(Reward);
+        if (reward == this.lastReward) return; // 防止重复碰撞 引擎 BUG
         if (reward) {
+            this.lastReward = reward;
             this.onContactToReward(reward);
         }
         else {
@@ -171,7 +175,8 @@ export class Player extends Component {
                 break;
             case RewardType.Bomb:
                 console.log("Reward.Bomb");
-                this.lifeCount += 1;
+                // save bombs
+                GameManager.getInstance().addBomb();
                 break;
         }
 
