@@ -530,7 +530,7 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728652302955.784,
+      "time": 1728652974854.8848,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
@@ -572,14 +572,14 @@
       "time": 1728287354220.252
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet1.prefab": {
-      "time": 1728525149279.6216,
+      "time": 1728652742336.2644,
       "uuid": "56a679a4-673f-4e9b-9262-73657509fd14"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet2.prefab.meta": {
       "time": 1728287523226.2708
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Bullet2.prefab": {
-      "time": 1728525154403.6033,
+      "time": 1728652746949.9568,
       "uuid": "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.meta": {
@@ -593,7 +593,7 @@
       "time": 1728347520848.684
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy0.prefab": {
-      "time": 1728525133474.1746,
+      "time": 1728652753481.1946,
       "uuid": "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy0_Down.anim.meta": {
@@ -621,7 +621,7 @@
       "time": 1728348355069.2979
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy1.prefab": {
-      "time": 1728525130655.7617,
+      "time": 1728652761746.6736,
       "uuid": "e5ad0dab-5091-4e5f-9778-f84d601f6a7b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy2_Down.anim.meta": {
@@ -649,7 +649,7 @@
       "time": 1728376954162.3284
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy2.prefab": {
-      "time": 1728525128010.3176,
+      "time": 1728652766592.8782,
       "uuid": "d64d3cd3-fabf-4709-bad4-07324412c3b8"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_down1.png.meta": {
@@ -712,14 +712,14 @@
       "time": 1728547449566.0596
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Reward2_Bomb.prefab": {
-      "time": 1728547449564.8384,
+      "time": 1728652781488.0662,
       "uuid": "a0e08328-83ec-4e1b-8ea9-a96236c761bf"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Reward1_TwoShoot.prefab.meta": {
       "time": 1728547455922.4104
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Reward1_TwoShoot.prefab": {
-      "time": 1728547546889.0833,
+      "time": 1728652775411.0352,
       "uuid": "21857b16-457c-47de-9a35-ab1025d81238"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.meta": {
