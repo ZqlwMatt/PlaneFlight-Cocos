@@ -41,9 +41,9 @@ export class Player extends Component {
     collider:Collider2D = null;
     @property(Animation)
     anim:Animation = null;
-    @property(String)
+    @property
     animHit:string = "";
-    @property(String)
+    @property
     animDown:string = "";
 
     @property
@@ -151,8 +151,8 @@ export class Player extends Component {
         const reward = otherCollider.getComponent(Reward);
         if (reward == this.lastReward) return; // 防止重复碰撞 引擎 BUG
         if (reward) {
-            this.lastReward = reward;
             this.onContactToReward(reward);
+            this.lastReward = reward;
         }
         else {
             this.onContactToEnemy();

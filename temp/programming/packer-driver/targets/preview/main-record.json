@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 973998.886750102,
+      "mTimestamp": 3892498.40379107,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -537,6 +537,20 @@
               "column": 83
             }
           }
+        },
+        {
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 85
+            }
+          }
         }
       ],
       "type": "esm",
@@ -601,6 +615,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts"
           },
           "messages": []
         }
@@ -816,7 +837,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1728652516196.58,
+        "mtime": 1728655430361.533,
         "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       },
       "chunkId": "4ee4b745e195651d43d93cea5e0e627822e7c083",
@@ -973,7 +994,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1728551356022.6863,
+        "mtime": 1728655290230.3596,
         "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
       },
       "chunkId": "f74855fb9053ec63ccacca84b5ff0c446c1b86ec",
@@ -1168,10 +1189,94 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1728652204072.7268,
+        "mtime": 1728655106922.0789,
         "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       },
       "chunkId": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./UI/BombUI",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 36
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/NewComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1728653507886.9653,
+        "uuid": "49065107-fdd3-4209-8dc8-6fe8471dede1"
+      },
+      "chunkId": "448153fdd7007f01ab0bb1aabb9836dd6573eb4c",
       "imports": [
         {
           "value": "cc"
@@ -1189,6 +1294,58 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts": {
+      "mTimestamp": {
+        "mtime": 1728655293667.513,
+        "uuid": "83d1b3aa-0d81-4c69-97a0-1765e8faa04a"
+      },
+      "chunkId": "291709743c4b58c8dbe049871537c6280ec87ec0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
             }
           }
         }

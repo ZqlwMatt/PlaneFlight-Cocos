@@ -14,9 +14,9 @@ export class Enemy extends Component {
     @property
     hp:number = 1;
 
-    @property(String)
+    @property
     animHit:string = "";
-    @property(String)
+    @property
     animDown:string = "";
 
     collider:Collider2D = null;

@@ -1625,7 +1625,8 @@
         "05f5b2f4-31b8-4fbe-b682-dab688817a5b",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "036c7b8d-1f35-4966-8c5b-d990bce0854a",
-        "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
+        "c632bae7-6570-4d7a-9d93-f1deb7a93a25",
+        "83d1b3aa-0d81-4c69-97a0-1765e8faa04a"
       ]
     },
     "versionCode": 1
@@ -1852,6 +1853,21 @@
   },
   "c632bae7-6570-4d7a-9d93-f1deb7a93a25": {
     "url": "db://assets/Scripts/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "49065107-fdd3-4209-8dc8-6fe8471dede1": {
+    "url": "db://assets/Scripts/NewComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c029a3c7-499e-46f4-aa3e-379681cd193b": {
+    "url": "db://assets/Scripts/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "83d1b3aa-0d81-4c69-97a0-1765e8faa04a": {
+    "url": "db://assets/Scripts/UI/BombUI.ts",
     "value": {},
     "versionCode": 1
   }

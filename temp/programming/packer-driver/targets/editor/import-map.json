@@ -10,7 +10,8 @@
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": "./chunks/96/964cc7eb02723ff5d467f1254c3cde38c3b4f90d.js",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": "./chunks/4e/4ee4b745e195651d43d93cea5e0e627822e7c083.js",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": "./chunks/3c/3cc4255b11df13a3f23ddb02acf7cac1802a04d1.js",
-    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts": "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js"
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts": "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js",
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts": "./chunks/29/291709743c4b58c8dbe049871537c6280ec87ec0.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -54,7 +55,11 @@
       "__unresolved_5": "./chunks/96/964cc7eb02723ff5d467f1254c3cde38c3b4f90d.js",
       "__unresolved_6": "./chunks/4e/4ee4b745e195651d43d93cea5e0e627822e7c083.js",
       "__unresolved_7": "./chunks/3c/3cc4255b11df13a3f23ddb02acf7cac1802a04d1.js",
-      "__unresolved_8": "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js"
+      "__unresolved_8": "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js",
+      "__unresolved_9": "./chunks/29/291709743c4b58c8dbe049871537c6280ec87ec0.js"
+    },
+    "./chunks/29/291709743c4b58c8dbe049871537c6280ec87ec0.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/39/3925c8909393114becdb204ca69d8e32d2033379.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
@@ -69,6 +74,8 @@
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/96/964cc7eb02723ff5d467f1254c3cde38c3b4f90d.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/29/291709743c4b58c8dbe049871537c6280ec87ec0.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/a8/a81822d777b3c4fbb3646598e36bf03da7bf05f2.js": {
