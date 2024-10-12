@@ -212,12 +212,17 @@ export class Player extends Component {
         else {
             this.anim.play(this.animDown);
         }
-
+        
+        // game over
         if (this.lifeCount <= 0) {
             this.shootType = ShootType.None;
             if (this.collider) {
                 this.collider.enabled = false;
             }
+            // 爆炸完再显示
+            this.scheduleOnce(() => {
+                GameManager.getInstance().gameOver();
+            }, 0.4);
         }
     }
 

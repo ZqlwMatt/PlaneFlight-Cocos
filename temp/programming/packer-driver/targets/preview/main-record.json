@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 8353.144875049591,
+      "mTimestamp": 1239123.2514160872,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -553,7 +553,7 @@
           }
         },
         {
-          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts",
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -562,12 +562,12 @@
             },
             "end": {
               "line": 14,
-              "column": 90
+              "column": 89
             }
           }
         },
         {
-          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts",
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -576,6 +576,20 @@
             },
             "end": {
               "line": 15,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
               "column": 86
             }
           }
@@ -650,6 +664,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts"
           },
           "messages": []
         },
@@ -879,7 +900,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1728729926507.2068,
+        "mtime": 1728752917675.18,
         "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       },
       "chunkId": "4ee4b745e195651d43d93cea5e0e627822e7c083",
@@ -1273,7 +1294,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1728730241433.4036,
+        "mtime": 1728753081869.3323,
         "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       },
       "chunkId": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d",
@@ -1342,6 +1363,20 @@
               "column": 33
             }
           }
+        },
+        {
+          "value": "./UI/GameOverUI",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 27
+            },
+            "end": {
+              "line": 5,
+              "column": 44
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1392,6 +1427,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts"
           },
           "messages": []
         }
@@ -1559,6 +1601,58 @@
         "uuid": "ed1e2f10-db42-4998-87a2-bb43c7ea8452"
       },
       "chunkId": "81fa28047809138597b89f91193f0e7697d4b1eb",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts": {
+      "mTimestamp": {
+        "mtime": 1728752969686.55,
+        "uuid": "0a55b46e-9d88-41d2-b0d2-f6aa07bbc002"
+      },
+      "chunkId": "061d122cf6cbfec03e49065e9094c77ce59a6616",
       "imports": [
         {
           "value": "cc"

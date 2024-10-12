@@ -165,86 +165,6 @@
       },
       "timestamp": 1728729044941
     },
-    "4ee4b745e195651d43d93cea5e0e627822e7c083": {
-      "imports": {
-        "__unresolved_0": {
-          "resolved": {
-            "type": "chunk",
-            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
-          },
-          "messages": []
-        },
-        "__unresolved_1": {
-          "resolved": {
-            "type": "chunk",
-            "id": "3cc4255b11df13a3f23ddb02acf7cac1802a04d1"
-          },
-          "messages": []
-        },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "chunk",
-            "id": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d"
-          },
-          "messages": []
-        },
-        "__unresolved_3": {
-          "resolved": {
-            "type": "chunk",
-            "id": "69f3e0ce81ec792199d8dafbc1326adbd2f7fe0f"
-          },
-          "messages": []
-        },
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1728729960852
-    },
-    "964cc7eb02723ff5d467f1254c3cde38c3b4f90d": {
-      "imports": {
-        "__unresolved_0": {
-          "resolved": {
-            "type": "chunk",
-            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
-          },
-          "messages": []
-        },
-        "__unresolved_1": {
-          "resolved": {
-            "type": "chunk",
-            "id": "291709743c4b58c8dbe049871537c6280ec87ec0"
-          },
-          "messages": []
-        },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "chunk",
-            "id": "81fa28047809138597b89f91193f0e7697d4b1eb"
-          },
-          "messages": []
-        },
-        "__unresolved_3": {
-          "resolved": {
-            "type": "chunk",
-            "id": "4ee4b745e195651d43d93cea5e0e627822e7c083"
-          },
-          "messages": []
-        },
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1728730243015
-    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -464,6 +384,58 @@
       "imports": {},
       "timestamp": 1728751852344
     },
+    "4ee4b745e195651d43d93cea5e0e627822e7c083": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "3cc4255b11df13a3f23ddb02acf7cac1802a04d1"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "69f3e0ce81ec792199d8dafbc1326adbd2f7fe0f"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1728752919416
+    },
+    "061d122cf6cbfec03e49065e9094c77ce59a6616": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1728753013757
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -483,11 +455,18 @@
         "__unresolved_10": {
           "resolved": {
             "type": "chunk",
-            "id": "69f3e0ce81ec792199d8dafbc1326adbd2f7fe0f"
+            "id": "061d122cf6cbfec03e49065e9094c77ce59a6616"
           },
           "messages": []
         },
         "__unresolved_11": {
+          "resolved": {
+            "type": "chunk",
+            "id": "69f3e0ce81ec792199d8dafbc1326adbd2f7fe0f"
+          },
+          "messages": []
+        },
+        "__unresolved_12": {
           "resolved": {
             "type": "chunk",
             "id": "81fa28047809138597b89f91193f0e7697d4b1eb"
@@ -551,7 +530,54 @@
           "messages": []
         }
       },
-      "timestamp": 1728751853271
+      "timestamp": 1728753084051
+    },
+    "964cc7eb02723ff5d467f1254c3cde38c3b4f90d": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "291709743c4b58c8dbe049871537c6280ec87ec0"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "81fa28047809138597b89f91193f0e7697d4b1eb"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "4ee4b745e195651d43d93cea5e0e627822e7c083"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "061d122cf6cbfec03e49065e9094c77ce59a6616"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1728753084080
     }
   },
   "entries": {
@@ -567,6 +593,7 @@
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts": "3cc4255b11df13a3f23ddb02acf7cac1802a04d1",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts": "3925c8909393114becdb204ca69d8e32d2033379",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts": "291709743c4b58c8dbe049871537c6280ec87ec0",
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts": "061d122cf6cbfec03e49065e9094c77ce59a6616",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts": "69f3e0ce81ec792199d8dafbc1326adbd2f7fe0f",
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts": "81fa28047809138597b89f91193f0e7697d4b1eb"
   }

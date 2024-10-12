@@ -2,6 +2,7 @@ import { _decorator, Button, Component, director, Node } from 'cc';
 import { BombUI } from './UI/BombUI';
 import { ScoreUI } from './UI/ScoreUI';
 import { Player } from './Player';
+import { GameOverUI } from './UI/GameOverUI';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -31,6 +32,10 @@ export class GameManager extends Component {
     pauseButtonNode:Node = null;
     @property(Node)
     resumeButtonNode:Node = null;
+
+    @property(GameOverUI)
+    gameOverUI:GameOverUI = null;
+
 
     protected onLoad(): void {
         GameManager.instance = this;
@@ -69,6 +74,12 @@ export class GameManager extends Component {
         this.player.enableControl();
         this.pauseButtonNode.active = true;
         this.resumeButtonNode.active = false;
+    }
+
+    gameOver() {
+        // hp = 0, show GameOverUI
+        this.onPauseButtonClick();
+        this.gameOverUI.showGameOverUI(1, 2);
     }
 }
 

@@ -270,3 +270,353 @@ Feature changed: false
 00:50:53 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
 00:50:53 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
 00:50:53 debug: Target(preview) ends with cost 39.37987494468689ms.
+01:03:39 debug: Dispatch build request for time accumulated 1 asset changes.
+01:03:39 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:03:39 debug: Target(editor) build started.
+01:03:39 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:54 GMT+0800 (中国标准时间)
+01:03:39 debug: Inspect cce:/internal/x/prerequisite-imports
+01:03:39 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:03:39 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts
+01:03:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:03:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:03:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:03:39 debug: Target(editor) ends with cost 68.89608299732208ms.
+01:03:39 debug: Target(preview) build started.
+01:03:39 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:12:54 GMT+0800 (中国标准时间)
+01:03:39 debug: Inspect cce:/internal/x/prerequisite-imports
+01:03:39 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:03:39 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts
+01:03:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:03:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:03:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:03:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:03:39 debug: Target(preview) ends with cost 61.05187499523163ms.
+01:05:16 debug: Dispatch build request for time accumulated 1 asset changes.
+01:05:16 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:05:16 debug: Target(editor) build started.
+01:05:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:31 GMT+0800 (中国标准时间)
+01:05:16 debug: Inspect cce:/internal/x/prerequisite-imports
+01:05:16 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:05:16 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts. Last mtime: Sun Oct 13 2024 01:03:39 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002, Current mtime: Sun Oct 13 2024 01:05:03 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002
+01:05:16 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts
+01:05:16 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:05:16 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:05:16 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:05:16 debug: Target(editor) ends with cost 82.63158392906189ms.
+01:05:16 debug: Target(preview) build started.
+01:05:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:12:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:14:31 GMT+0800 (中国标准时间)
+01:05:16 debug: Inspect cce:/internal/x/prerequisite-imports
+01:05:16 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:05:16 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts. Last mtime: Sun Oct 13 2024 01:03:39 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002, Current mtime: Sun Oct 13 2024 01:05:03 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002
+01:05:16 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts
+01:05:16 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:05:16 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:05:16 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:05:16 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:05:16 debug: Target(preview) ends with cost 51.94854199886322ms.
+01:06:58 debug: Dispatch build request for time accumulated 2 asset changes.
+01:06:58 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+01:06:58 debug: Target(editor) build started.
+01:06:58 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:13 GMT+0800 (中国标准时间)
+01:06:58 debug: Inspect cce:/internal/x/prerequisite-imports
+01:06:58 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:06:58 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts. Last mtime: Sat Oct 12 2024 18:50:41 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25, Current mtime: Sun Oct 13 2024 01:06:18 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25
+01:06:58 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts
+01:06:58 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve ./UI/BombUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:06:58 debug: Resolve ./UI/ScoreUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:06:58 debug: Resolve ./Player from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:06:58 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts. Last mtime: Sat Oct 12 2024 18:45:26 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b, Current mtime: Sun Oct 13 2024 01:06:48 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b
+01:06:58 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts
+01:06:58 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/code-quality/cr.mjs.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve ./Reward from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:06:58 debug: Resolve ./GameManager from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:06:58 debug: Resolve ./UI/LifeCountUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:06:58 debug: Target(editor) ends with cost 134.26841592788696ms.
+01:06:58 debug: Target(preview) build started.
+01:06:58 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:14:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:13 GMT+0800 (中国标准时间)
+01:06:58 debug: Inspect cce:/internal/x/prerequisite-imports
+01:06:58 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:06:58 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts. Last mtime: Sat Oct 12 2024 18:50:41 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25, Current mtime: Sun Oct 13 2024 01:06:18 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25
+01:06:58 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts
+01:06:58 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve ./UI/BombUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:06:58 debug: Resolve ./UI/ScoreUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:06:58 debug: Resolve ./Player from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:06:58 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts. Last mtime: Sat Oct 12 2024 18:45:26 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b, Current mtime: Sun Oct 13 2024 01:06:48 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b
+01:06:58 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts
+01:06:58 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/code-quality/cr.mjs.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:06:58 debug: Resolve ./Reward from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:06:58 debug: Resolve ./GameManager from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:06:58 debug: Resolve ./UI/LifeCountUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:06:58 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:06:58 debug: Target(preview) ends with cost 100.88662505149841ms.
+01:08:39 debug: Dispatch build request for time accumulated 1 asset changes.
+01:08:39 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:08:39 debug: Target(editor) build started.
+01:08:39 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:54 GMT+0800 (中国标准时间)
+01:08:39 debug: Inspect cce:/internal/x/prerequisite-imports
+01:08:39 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:08:39 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts. Last mtime: Sun Oct 13 2024 01:06:48 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b, Current mtime: Sun Oct 13 2024 01:08:37 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b
+01:08:39 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts
+01:08:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/code-quality/cr.mjs.
+01:08:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:08:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:08:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:08:39 debug: Resolve ./Reward from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:08:39 debug: Resolve ./GameManager from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:08:39 debug: Resolve ./UI/LifeCountUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:08:39 debug: Target(editor) ends with cost 84.47212493419647ms.
+01:08:39 debug: Target(preview) build started.
+01:08:39 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:17:54 GMT+0800 (中国标准时间)
+01:08:39 debug: Inspect cce:/internal/x/prerequisite-imports
+01:08:39 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:08:39 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts. Last mtime: Sun Oct 13 2024 01:06:48 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b, Current mtime: Sun Oct 13 2024 01:08:37 GMT+0800 (中国标准时间)@05f5b2f4-31b8-4fbe-b682-dab688817a5b
+01:08:39 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts
+01:08:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/code-quality/cr.mjs.
+01:08:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:08:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:08:39 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as cce:/internal/x/cc.
+01:08:39 debug: Resolve ./Reward from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:08:39 debug: Resolve ./GameManager from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:08:39 debug: Resolve ./UI/LifeCountUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:08:39 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:08:39 debug: Target(preview) ends with cost 91.15487492084503ms.
+01:10:13 debug: Dispatch build request for time accumulated 2 asset changes.
+01:10:13 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+01:10:13 debug: Target(editor) build started.
+01:10:13 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:19:28 GMT+0800 (中国标准时间)
+01:10:13 debug: Inspect cce:/internal/x/prerequisite-imports
+01:10:13 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:10:13 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts. Last mtime: Sun Oct 13 2024 01:06:18 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25, Current mtime: Sun Oct 13 2024 01:10:10 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25
+01:10:13 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts
+01:10:13 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve ./UI/BombUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:10:13 debug: Resolve ./UI/ScoreUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:10:13 debug: Resolve ./Player from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:10:13 debug: Resolve ./UI/GameOverUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:10:13 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts. Last mtime: Sun Oct 13 2024 01:05:03 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002, Current mtime: Sun Oct 13 2024 01:09:29 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002
+01:10:13 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:10:13 debug: Target(editor) ends with cost 101.99199998378754ms.
+01:10:13 debug: Target(preview) build started.
+01:10:13 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:17:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:19:28 GMT+0800 (中国标准时间)
+01:10:13 debug: Inspect cce:/internal/x/prerequisite-imports
+01:10:13 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:10:13 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts. Last mtime: Sun Oct 13 2024 01:06:18 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25, Current mtime: Sun Oct 13 2024 01:10:10 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25
+01:10:13 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts
+01:10:13 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve ./UI/BombUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:10:13 debug: Resolve ./UI/ScoreUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:10:13 debug: Resolve ./Player from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:10:13 debug: Resolve ./UI/GameOverUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:10:13 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts. Last mtime: Sun Oct 13 2024 01:05:03 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002, Current mtime: Sun Oct 13 2024 01:09:29 GMT+0800 (中国标准时间)@0a55b46e-9d88-41d2-b0d2-f6aa07bbc002
+01:10:13 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts as cce:/internal/x/cc.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:10:13 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:10:13 debug: Target(preview) ends with cost 149.67116594314575ms.
+01:11:24 debug: Dispatch build request for time accumulated 1 asset changes.
+01:11:24 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:11:24 debug: Target(editor) build started.
+01:11:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:19:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:39 GMT+0800 (中国标准时间)
+01:11:24 debug: Inspect cce:/internal/x/prerequisite-imports
+01:11:24 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:11:24 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts. Last mtime: Sun Oct 13 2024 01:10:10 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25, Current mtime: Sun Oct 13 2024 01:11:21 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25
+01:11:24 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts
+01:11:24 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+01:11:24 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:11:24 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:11:24 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:11:24 debug: Resolve ./UI/BombUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:11:24 debug: Resolve ./UI/ScoreUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:11:24 debug: Resolve ./Player from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:11:24 debug: Resolve ./UI/GameOverUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:11:24 debug: Target(editor) ends with cost 50.624791979789734ms.
+01:11:24 debug: Target(preview) build started.
+01:11:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:19:28 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:20:39 GMT+0800 (中国标准时间)
+01:11:24 debug: Inspect cce:/internal/x/prerequisite-imports
+01:11:24 debug: Resolve file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts.
+01:11:24 debug: Detected change: file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts. Last mtime: Sun Oct 13 2024 01:10:10 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25, Current mtime: Sun Oct 13 2024 01:11:21 GMT+0800 (中国标准时间)@c632bae7-6570-4d7a-9d93-f1deb7a93a25
+01:11:24 debug: Inspect file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts
+01:11:24 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+01:11:24 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:11:24 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:11:24 debug: Resolve cc from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as cce:/internal/x/cc.
+01:11:24 debug: Resolve ./UI/BombUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:11:24 debug: Resolve ./UI/ScoreUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:11:24 debug: Resolve ./Player from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:11:24 debug: Resolve ./UI/GameOverUI from file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts.
+01:11:24 debug: Resolve file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts.
+01:11:24 debug: Target(preview) ends with cost 85.81891691684723ms.
