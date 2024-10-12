@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3828265.19195807,
+      "mTimestamp": 4340564.633708,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1078,7 +1078,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1728728782349.3733,
+        "mtime": 1728756183595.813,
         "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
       },
       "chunkId": "f74855fb9053ec63ccacca84b5ff0c446c1b86ec",
@@ -1133,6 +1133,20 @@
               "column": 43
             }
           }
+        },
+        {
+          "value": "./EnemyManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 29
+            },
+            "end": {
+              "line": 4,
+              "column": 45
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1178,12 +1192,19 @@
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts": {
       "mTimestamp": {
-        "mtime": 1728755667314.4163,
+        "mtime": 1728756052172.0037,
         "uuid": "036c7b8d-1f35-4966-8c5b-d990bce0854a"
       },
       "chunkId": "a81822d777b3c4fbb3646598e36bf03da7bf05f2",

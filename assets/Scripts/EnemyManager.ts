@@ -6,6 +6,12 @@ const { ccclass, property } = _decorator;
 @ccclass('EnemyManager')
 export class EnemyManager extends Component {
 
+    private static instance:EnemyManager = null;
+
+    public static getInstance():EnemyManager {
+        return this.instance;
+    }
+
     @property
     enemy0SpawnRate:number = 1;
     @property(Prefab)
@@ -40,6 +46,7 @@ export class EnemyManager extends Component {
     }
 
     start() {
+        EnemyManager.instance = this;
         this.schedule(this.enemy0Spawn, this.enemy0SpawnRate);
         this.schedule(this.enemy1Spawn, this.enemy1SpawnRate);
         this.schedule(this.enemy2Spawn, this.enemy2SpawnRate);
@@ -104,6 +111,13 @@ export class EnemyManager extends Component {
     onDoubleClick() {
         // clear all enemies
         if (GameManager.getInstance().hasBomb() === false) return;
+    }
+
+    removeEnemy(n:Node) {
+        const index = this.enemyArray.indexOf(n);
+        if (index !== -1) {
+            this.enemyArray.splice(index, 1);
+        }
     }
 }
 

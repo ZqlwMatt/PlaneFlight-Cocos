@@ -1,6 +1,7 @@
 import { _decorator, Animation, Collider2D, Component, Contact2DType, Game, IPhysics2DContact, Node, PhysicsSystem2D, Sprite } from 'cc';
 import { Bullet } from './Bullet';
 import { GameManager } from './GameManager';
+import { EnemyManager } from './EnemyManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('Enemy')
@@ -50,6 +51,7 @@ export class Enemy extends Component {
         //     PhysicsSystem2D.instance.off(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         //     PhysicsSystem2D.instance.off(Contact2DType.END_CONTACT, this.onEndContact, this);
         // }
+        EnemyManager.getInstance().removeEnemy(this.node);
     }
 
     update(deltaTime: number) {
@@ -80,14 +82,22 @@ export class Enemy extends Component {
         }
 
         if (this.hp <= 0) {
-            GameManager.getInstance().addScore(this.score);
-            if (this.collider) {
-                this.collider.enabled = false;
-            }
-            this.scheduleOnce(function() {
-                this.node.destroy();
-            }, 1);
+            this.dead();
         }
+    }
+
+    haveDead:boolean = false;
+
+    dead() {
+        if (this.haveDead) return;
+        GameManager.getInstance().addScore(this.score);
+        if (this.collider) {
+            this.collider.enabled = false;
+        }
+        this.scheduleOnce(function() {
+            this.node.destroy();
+        }, 1);
+        this.haveDead = true;
     }
 }
 
