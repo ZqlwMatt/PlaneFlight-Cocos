@@ -87,5 +87,14 @@ export class GameManager extends Component {
         }
         this.gameOverUI.showGameOverUI(bestScore, this.score);
     }
+
+    onRestartButtonClick() {
+        director.loadScene(director.getScene().name);
+        this.onResumeButtonClick();
+    }
+
+    onQuitButtonClick() {
+        // need to implement?
+    }
 }
 
