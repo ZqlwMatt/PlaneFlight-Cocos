@@ -59,6 +59,8 @@ export class Player extends Component {
     invincibleTimer:number = 0;
     isInvincible:boolean = false;
 
+    private canControl:boolean = true;
+
     // 注册事件
     protected onLoad(): void {
         input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
@@ -79,6 +81,8 @@ export class Player extends Component {
     }
 
     onTouchMove(event:EventTouch) {
+
+        if (!this.canControl) return;
         if (this.lifeCount <= 0) return;
 
         const p = this.node.position;
@@ -215,6 +219,13 @@ export class Player extends Component {
                 this.collider.enabled = false;
             }
         }
+    }
+
+    disableControl() {
+        this.canControl = false;
+    }
+    enableControl() {     
+        this.canControl = true;
     }
 }
 

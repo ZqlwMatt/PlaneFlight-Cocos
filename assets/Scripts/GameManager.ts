@@ -1,5 +1,7 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Button, Component, director, Node } from 'cc';
 import { BombUI } from './UI/BombUI';
+import { ScoreUI } from './UI/ScoreUI';
+import { Player } from './Player';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -19,9 +21,24 @@ export class GameManager extends Component {
     @property
     private score:number = 0;
 
+    @property(ScoreUI)
+    scoreUI:ScoreUI = null;
+
+    @property(Player)
+    player:Player = null;
+
+    @property(Node)
+    pauseButtonNode:Node = null;
+    @property(Node)
+    resumeButtonNode:Node = null;
+
     protected onLoad(): void {
         GameManager.instance = this;
     }
+
+    // protected update(dt: number): void {
+    //     console.log(dt);
+    // }
 
     public addBomb() {
         this.bombNumber++;
@@ -36,6 +53,22 @@ export class GameManager extends Component {
 
     public addScore(s:number) {
         this.score += s;
+        this.scoreUI.updateUI(this.score);
+    }
+
+    onPauseButtonClick() {
+        // this.node.emit("onPauseGame");
+        director.pause();
+        this.player.disableControl();
+        this.pauseButtonNode.active = false;
+        this.resumeButtonNode.active = true;
+    }
+    onResumeButtonClick() {
+        // this.node.emit("onResumeGame");
+        director.resume();
+        this.player.enableControl();
+        this.pauseButtonNode.active = true;
+        this.resumeButtonNode.active = false;
     }
 }
 

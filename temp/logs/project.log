@@ -241,3 +241,539 @@
     at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
     at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
 10-12-2024 18:28:05 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:31:57 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:31:57 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:31:57 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:31:57 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:31:57 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:31:57 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:31:57 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:32:00 - log: [PreviewInEditor] Reward.TwoShoot
+10-12-2024 18:32:17 - log: [PreviewInEditor] Reward.TwoShoot
+10-12-2024 18:32:26 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:32:26 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:32:27 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:34:34 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:34:34 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:34:34 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:34:34 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:34:35 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:34:35 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:34:35 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:34:38 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:34:38 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:34:39 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:34:46 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:34:46 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:34:46 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:34:46 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:34:46 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:34:46 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:34:46 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:34:50 - log: [PreviewInEditor] Reward.TwoShoot
+10-12-2024 18:34:57 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:34:57 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:34:58 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:35:02 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:35:02 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:35:02 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:35:02 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:35:02 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:35:02 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:35:03 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:35:06 - log: [PreviewInEditor] Reward.TwoShoot
+10-12-2024 18:35:10 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:35:10 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:35:12 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:37:50 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:37:50 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:37:50 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:37:50 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:37:50 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:37:50 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:37:50 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:37:54 - log: [PreviewInEditor] Reward.TwoShoot
+10-12-2024 18:37:54 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:37:54 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:37:55 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:37:58 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:37:58 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:37:58 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:37:58 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:37:58 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:37:58 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:37:58 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:38:01 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:38:01 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:38:03 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:40:52 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:40:52 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:40:52 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:40:52 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:40:53 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:40:53 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:40:53 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:40:56 - log: [PreviewInEditor] Reward.TwoShoot
+10-12-2024 18:40:59 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:40:59 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:41:00 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:41:04 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:41:04 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:41:04 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:41:04 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:41:04 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:41:04 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:41:04 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:41:07 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:41:07 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:41:08 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:41:10 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:41:10 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:41:10 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:41:10 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:41:10 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:41:10 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:41:10 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:41:20 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:41:20 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:41:21 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:41:56 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:41:56 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:41:56 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:41:56 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:41:57 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:41:57 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:41:57 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:42:05 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:42:05 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:42:06 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:43:03 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:43:03 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:43:03 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:43:03 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:43:03 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:43:03 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:43:03 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.3425
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.048100000023841856
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008099999964237213
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008400000035762786
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008599999964237213
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.009100000023841858
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008899999976158143
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008700000047683716
+10-12-2024 18:43:04 - log: [PreviewInEditor] 0.008799999952316284
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009400000035762787
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.007899999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009099999964237214
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009100000023841858
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008099999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009400000035762787
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009200000047683716
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0085
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009200000047683716
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008799999952316284
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009600000023841858
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008599999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009100000023841858
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008099999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008400000035762786
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008099999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0085
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009399999976158141
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008899999976158143
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009399999976158141
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0095
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009399999976158141
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00919999998807907
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008099999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008100000023841859
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0095
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008299999952316284
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008200000047683715
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00919999998807907
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0095
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009300000011920929
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008599999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009300000011920929
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008900000035762787
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008899999976158143
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008200000047683715
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008899999976158143
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009100000023841858
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008099999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009100000023841858
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0095
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009099999964237214
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008200000047683715
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009299999952316285
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008400000035762786
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008800000011920928
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008899999976158143
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0085
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.0085
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00919999998807907
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00919999998807907
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.00919999998807907
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008400000035762786
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008099999964237213
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009300000011920929
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:05 - log: [PreviewInEditor] 0.009100000023841858
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008600000023841857
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008199999988079071
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.009600000023841858
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008399999976158142
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.00919999998807907
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008200000047683715
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.00919999998807907
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.00830000001192093
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.008699999988079072
+10-12-2024 18:43:06 - log: [PreviewInEditor] 0.009
+10-12-2024 18:43:14 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:43:14 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:43:15 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:46:29 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:46:29 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:46:29 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:46:29 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:46:29 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:46:29 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:46:30 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:50:00 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:50:00 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at CameraIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+10-12-2024 18:50:01 - info: [PreviewInEditor] 预览环境初始化完毕
+10-12-2024 18:50:44 - log: [PreviewInEditor] meshopt wasm decoder initialized
+10-12-2024 18:50:44 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+10-12-2024 18:50:44 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+10-12-2024 18:50:44 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+10-12-2024 18:50:44 - log: [PreviewInEditor] Cocos Creator v3.8.3
+10-12-2024 18:50:44 - info: [PreviewInEditor] Forward render pipeline initialized.
+10-12-2024 18:50:44 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+10-12-2024 18:50:49 - log: [PreviewInEditor] Reward.TwoShoot
