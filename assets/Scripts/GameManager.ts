@@ -1,4 +1,4 @@
-import { _decorator, Button, Component, director, Node } from 'cc';
+import { _decorator, Button, Component, director, Node, sys } from 'cc';
 import { BombUI } from './UI/BombUI';
 import { ScoreUI } from './UI/ScoreUI';
 import { Player } from './Player';
@@ -79,7 +79,13 @@ export class GameManager extends Component {
     gameOver() {
         // hp = 0, show GameOverUI
         this.onPauseButtonClick();
-        this.gameOverUI.showGameOverUI(1, 2);
+        // localStorage
+        let bestScore = parseInt(localStorage.getItem("bestScore") || "0");
+        if (this.score > bestScore) {
+            bestScore = this.score;
+            localStorage.setItem("bestScore", bestScore.toString());
+        }
+        this.gameOverUI.showGameOverUI(bestScore, this.score);
     }
 }
 
