@@ -2991,7 +2991,7 @@
       "__id__": 64
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 77
@@ -4294,6 +4294,7 @@
       "__uuid__": "a0e08328-83ec-4e1b-8ea9-a96236c761bf",
       "__expectedType__": "cc.Prefab"
     },
+    "enemyArray": [],
     "_id": "7bKUnBpZZLdqKQ9TL+PYYs"
   },
   {

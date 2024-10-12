@@ -99,5 +99,12 @@ export class Enemy extends Component {
         }, 1);
         this.haveDead = true;
     }
+
+    killNow() {
+        if (this.hp <= 0) return;
+        this.hp = 0;
+        this.anim.play(this.animDown);
+        this.dead();
+    }
 }
 

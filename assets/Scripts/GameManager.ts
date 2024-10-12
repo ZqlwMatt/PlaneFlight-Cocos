@@ -100,5 +100,13 @@ export class GameManager extends Component {
     hasBomb(): boolean {
         return this.bombNumber > 0;
     }
+
+    useBomb() {
+        if (this.bombNumber > 0) {
+            this.bombNumber--;
+            this.bombUI.updateUI(this.bombNumber);
+            // this.node.emit("onUseBomb");
+        }
+    }
 }
 

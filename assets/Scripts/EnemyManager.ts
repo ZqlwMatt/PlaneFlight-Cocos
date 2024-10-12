@@ -1,4 +1,4 @@
-import { _decorator, Component, EventTouch, input, Input, instantiate, math, Node, Prefab } from 'cc';
+import { _decorator, Component, EventTouch, Game, input, Input, instantiate, math, Node, Prefab } from 'cc';
 import { GameManager } from './GameManager';
 import { Enemy } from './Enemy';
 const { ccclass, property } = _decorator;
@@ -104,6 +104,7 @@ export class EnemyManager extends Component {
         const now = Date.now();
         if (now - this.lastClickTime < this.doubleClickInterval * 1000) {
             console.log("double click");
+            this.onDoubleClick();
         }
         this.lastClickTime = now;
     }
@@ -111,6 +112,13 @@ export class EnemyManager extends Component {
     onDoubleClick() {
         // clear all enemies
         if (GameManager.getInstance().hasBomb() === false) return;
+
+        GameManager.getInstance().useBomb();
+
+        for (let e of this.enemyArray) {
+            const enemy = e.getComponent(Enemy);
+            enemy.killNow();
+        }
     }
 
     removeEnemy(n:Node) {
