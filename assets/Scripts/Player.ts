@@ -1,6 +1,7 @@
 import { _decorator, Animation, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Sprite, Vec3 } from 'cc';
 import { Reward, RewardType } from './Reward';
 import { GameManager } from './GameManager';
+import { LifeCountUI } from './UI/LifeCountUI';
 const { ccclass, property } = _decorator;
 
 enum ShootType {
@@ -50,6 +51,9 @@ export class Player extends Component {
     twoShootTime:number = 5;
     twoShootTimer:number = 0;
 
+    @property(LifeCountUI)
+    lifeCountUI:LifeCountUI = null;
+
     @property
     invincibleTime:number = 1;
     invincibleTimer:number = 0;
@@ -62,6 +66,9 @@ export class Player extends Component {
         if (this.collider) {
             this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
+    }
+    protected start(): void {
+        this.lifeCountUI.updateUI(this.lifeCount);
     }
     protected onDestroy(): void {
         input.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
@@ -185,11 +192,16 @@ export class Player extends Component {
         reward.getComponent(Sprite).enabled = false;
     }
 
+    changeLifeCount(count:number) {
+        this.lifeCount += count;
+        this.lifeCountUI.updateUI(this.lifeCount);
+    }
+
     onContactToEnemy() {
         if (this.isInvincible) return;
         
         this.isInvincible = true;
-        this.lifeCount -= 1;
+        this.changeLifeCount(-1);
         if (this.lifeCount > 0) {
             this.anim.play(this.animHit);
         }

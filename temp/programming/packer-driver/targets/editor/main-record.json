@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6360.092290997505,
+      "mTimestamp": 7401.486083030701,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3892448.410833001,
+      "mTimestamp": 688979.8942910433,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -782,6 +782,20 @@
               "column": 1012
             }
           }
+        },
+        {
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1028
+            },
+            "end": {
+              "line": 5,
+              "column": 1111
+            }
+          }
         }
       ],
       "type": "esm",
@@ -853,6 +867,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts"
           },
           "messages": []
         }
@@ -1068,7 +1089,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1728655430361.533,
+        "mtime": 1728728249524.4375,
         "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       },
       "chunkId": "4ee4b745e195651d43d93cea5e0e627822e7c083",
@@ -1123,6 +1144,20 @@
               "column": 43
             }
           }
+        },
+        {
+          "value": "./UI/LifeCountUI",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 46
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1166,6 +1201,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts"
           },
           "messages": []
         }
@@ -1412,7 +1454,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1728651543718,
+      "mTimestamp": 1728727561238,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1560,6 +1602,58 @@
         "uuid": "83d1b3aa-0d81-4c69-97a0-1765e8faa04a"
       },
       "chunkId": "291709743c4b58c8dbe049871537c6280ec87ec0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts": {
+      "mTimestamp": {
+        "mtime": 1728727913855.8274,
+        "uuid": "2bf0fed2-ff34-4de1-8232-bf4f76ced8b4"
+      },
+      "chunkId": "69f3e0ce81ec792199d8dafbc1326adbd2f7fe0f",
       "imports": [
         {
           "value": "cc"

@@ -1613,20 +1613,22 @@
         "49887e2c-9257-4d59-8ba3-295f554e27b8",
         "56a679a4-673f-4e9b-9262-73657509fd14",
         "c383b9e0-2d3c-4cfc-9e56-a37aa54f3bba",
+        "dbbf4e1b-cbf0-456b-8ac0-44c30ffa084f@f9941",
+        "d540a6b1-85ce-4695-9e7d-27cffa88a637@f9941",
         "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde",
         "e5ad0dab-5091-4e5f-9778-f84d601f6a7b",
         "d64d3cd3-fabf-4709-bad4-07324412c3b8",
         "21857b16-457c-47de-9a35-ab1025d81238",
-        "a0e08328-83ec-4e1b-8ea9-a96236c761bf",
-        "dbbf4e1b-cbf0-456b-8ac0-44c30ffa084f@f9941"
+        "a0e08328-83ec-4e1b-8ea9-a96236c761bf"
       ],
       "dependScripts": [
         "d26cb5de-796b-46fb-873e-cc46eec8cbc8",
         "05f5b2f4-31b8-4fbe-b682-dab688817a5b",
+        "2bf0fed2-ff34-4de1-8232-bf4f76ced8b4",
+        "83d1b3aa-0d81-4c69-97a0-1765e8faa04a",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "036c7b8d-1f35-4966-8c5b-d990bce0854a",
-        "c632bae7-6570-4d7a-9d93-f1deb7a93a25",
-        "83d1b3aa-0d81-4c69-97a0-1765e8faa04a"
+        "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       ]
     },
     "versionCode": 1
@@ -1868,6 +1870,11 @@
   },
   "83d1b3aa-0d81-4c69-97a0-1765e8faa04a": {
     "url": "db://assets/Scripts/UI/BombUI.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2bf0fed2-ff34-4de1-8232-bf4f76ced8b4": {
+    "url": "db://assets/Scripts/UI/LifeCountUI.ts",
     "value": {},
     "versionCode": 1
   }
