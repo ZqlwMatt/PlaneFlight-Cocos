@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3352076.9752500057,
+      "mTimestamp": 3828265.19195807,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1183,11 +1183,15 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts": {
       "mTimestamp": {
-        "mtime": 1728755195719.0977,
+        "mtime": 1728755667314.4163,
         "uuid": "036c7b8d-1f35-4966-8c5b-d990bce0854a"
       },
       "chunkId": "a81822d777b3c4fbb3646598e36bf03da7bf05f2",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -1206,6 +1210,20 @@
               "column": 101
             }
           }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1213,7 +1231,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1228,6 +1246,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts"
           },
           "messages": []
         }
@@ -1294,7 +1326,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1728754448498.3198,
+        "mtime": 1728755283311.1504,
         "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       },
       "chunkId": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d",

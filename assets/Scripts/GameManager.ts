@@ -96,5 +96,9 @@ export class GameManager extends Component {
     onQuitButtonClick() {
         // need to implement?
     }
+
+    hasBomb(): boolean {
+        return this.bombNumber > 0;
+    }
 }
 

@@ -1,4 +1,6 @@
 import { _decorator, Component, EventTouch, input, Input, instantiate, math, Node, Prefab } from 'cc';
+import { GameManager } from './GameManager';
+import { Enemy } from './Enemy';
 const { ccclass, property } = _decorator;
 
 @ccclass('EnemyManager')
@@ -27,6 +29,8 @@ export class EnemyManager extends Component {
     reward2Prefab:Prefab = null;
 
     // double click to clear enemies.
+    @property(Node)
+    enemyArray:Node[] = [];
     doubleClickInterval:number = 0.2;
     lastClickTime:number = 0;
 
@@ -67,33 +71,39 @@ export class EnemyManager extends Component {
     }
 
     enemy0Spawn() {
-        this.objectSpawn(this.enemy0Prefab, -215, 215, 440);
+        const enemy = this.objectSpawn(this.enemy0Prefab, -215, 215, 440);
+        this.enemyArray.push(enemy);
     }
 
     enemy1Spawn() {
-        this.objectSpawn(this.enemy1Prefab, -200, 200, 480);
+        const enemy = this.objectSpawn(this.enemy1Prefab, -200, 200, 480);
+        this.enemyArray.push(enemy);
     }
 
     enemy2Spawn() {
-        this.objectSpawn(this.enemy2Prefab, -155, 155, 560);
+        const enemy = this.objectSpawn(this.enemy2Prefab, -155, 155, 560);
+        this.enemyArray.push(enemy);
     }
 
-    objectSpawn(enemyPrefab:Prefab, minX:number, maxX:number, y:number) {
+    objectSpawn(enemyPrefab:Prefab, minX:number, maxX:number, y:number): Node {
         const enemy = instantiate(enemyPrefab);
         this.node.addChild(enemy);
         const randomX = math.randomRangeInt(minX, maxX);
         enemy.setPosition(randomX, y, 0);
+        return enemy;
     }
 
     onTouchEnd(event: EventTouch) {
         const now = Date.now();
         if (now - this.lastClickTime < this.doubleClickInterval * 1000) {
-            // this.clearEnemies();
             console.log("double click");
         }
         this.lastClickTime = now;
     }
 
-
+    onDoubleClick() {
+        // clear all enemies
+        if (GameManager.getInstance().hasBomb() === false) return;
+    }
 }
 
