@@ -1,5 +1,6 @@
-import { _decorator, Animation, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsSystem2D, Sprite } from 'cc';
+import { _decorator, Animation, Collider2D, Component, Contact2DType, Game, IPhysics2DContact, Node, PhysicsSystem2D, Sprite } from 'cc';
 import { Bullet } from './Bullet';
+import { GameManager } from './GameManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('Enemy')
@@ -13,6 +14,9 @@ export class Enemy extends Component {
 
     @property
     hp:number = 1;
+
+    @property
+    score:number = 100;
 
     @property
     animHit:string = "";
@@ -76,6 +80,7 @@ export class Enemy extends Component {
         }
 
         if (this.hp <= 0) {
+            GameManager.getInstance().addScore(this.score);
             if (this.collider) {
                 this.collider.enabled = false;
             }

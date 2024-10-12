@@ -337,6 +337,7 @@
       "__id__": 7
     },
     "hp": 1,
+    "score": 100,
     "animHit": "Enemy0_Down",
     "animDown": "Enemy0_Down",
     "_id": ""
@@ -434,7 +435,6 @@
       "__id__": 0
     },
     "fileId": "24D3mGf3dLiIzfxaPNAURE",
-    "instance": null,
     "targetOverrides": []
   }
 ]

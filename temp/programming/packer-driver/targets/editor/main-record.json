@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 688979.8942910433,
+      "mTimestamp": 1223173.999583006,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1267,7 +1267,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1728655290230.3596,
+        "mtime": 1728728782349.3733,
         "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
       },
       "chunkId": "f74855fb9053ec63ccacca84b5ff0c446c1b86ec",
@@ -1287,11 +1287,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 126
+              "column": 132
             },
             "end": {
               "line": 1,
-              "column": 130
+              "column": 136
             }
           }
         },
@@ -1306,6 +1306,20 @@
             "end": {
               "line": 2,
               "column": 33
+            }
+          }
+        },
+        {
+          "value": "./GameManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 43
             }
           }
         }
@@ -1344,6 +1358,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts"
           },
           "messages": []
         }
@@ -1462,7 +1483,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1728655106922.0789,
+        "mtime": 1728728522369.6465,
         "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       },
       "chunkId": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d",

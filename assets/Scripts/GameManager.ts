@@ -16,6 +16,9 @@ export class GameManager extends Component {
     @property(BombUI)
     bombUI:BombUI = null;
 
+    @property
+    private score:number = 0;
+
     protected onLoad(): void {
         GameManager.instance = this;
     }
@@ -29,6 +32,10 @@ export class GameManager extends Component {
 
     public getBombNumber(): number {
         return this.bombNumber;
+    }
+
+    public addScore(s:number) {
+        this.score += s;
     }
 }
 

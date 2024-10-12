@@ -279,6 +279,7 @@
       "__id__": 7
     },
     "hp": 10,
+    "score": 900,
     "animHit": "Enemy2_Hit",
     "animDown": "Enemy2_Down",
     "_id": ""
@@ -416,7 +417,6 @@
       "__id__": 0
     },
     "fileId": "24D3mGf3dLiIzfxaPNAURE",
-    "instance": null,
     "targetOverrides": []
   }
 ]

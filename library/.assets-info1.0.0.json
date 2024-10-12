@@ -530,7 +530,7 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728728259068.6365,
+      "time": 1728728775123.4514,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
@@ -586,14 +586,14 @@
       "time": 1728347383344.7046
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
-      "time": 1728655290230.3596,
+      "time": 1728728782349.3733,
       "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy0.prefab.meta": {
       "time": 1728347520848.684
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy0.prefab": {
-      "time": 1728652753481.1946,
+      "time": 1728728866170.1196,
       "uuid": "a9d7e0d0-8b61-409a-bb3a-1e9b89122bde"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy0_Down.anim.meta": {
@@ -621,7 +621,7 @@
       "time": 1728348355069.2979
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy1.prefab": {
-      "time": 1728652761746.6736,
+      "time": 1728728862271.5068,
       "uuid": "e5ad0dab-5091-4e5f-9778-f84d601f6a7b"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Animations/Enemy2_Down.anim.meta": {
@@ -649,7 +649,7 @@
       "time": 1728376954162.3284
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy2.prefab": {
-      "time": 1728652766592.8782,
+      "time": 1728728864386.023,
       "uuid": "d64d3cd3-fabf-4709-bad4-07324412c3b8"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_down1.png.meta": {
@@ -726,7 +726,7 @@
       "time": 1728651662592.1704
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
-      "time": 1728655106922.0789,
+      "time": 1728728522369.6465,
       "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI.meta": {
