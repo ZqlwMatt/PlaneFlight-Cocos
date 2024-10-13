@@ -1,8 +1,9 @@
-import { _decorator, Button, Component, director, Node, sys } from 'cc';
+import { _decorator, AudioClip, Button, Component, director, Node, sys } from 'cc';
 import { BombUI } from './UI/BombUI';
 import { ScoreUI } from './UI/ScoreUI';
 import { Player } from './Player';
 import { GameOverUI } from './UI/GameOverUI';
+import { AudioMgr } from './AudioMgr';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -36,9 +37,16 @@ export class GameManager extends Component {
     @property(GameOverUI)
     gameOverUI:GameOverUI = null;
 
+    @property(AudioClip)
+    gameMusic:AudioClip = null;
+
 
     protected onLoad(): void {
         GameManager.instance = this;
+    }
+
+    protected start(): void {
+        AudioMgr.inst.play(this.gameMusic, 0.2);
     }
 
     // protected update(dt: number): void {

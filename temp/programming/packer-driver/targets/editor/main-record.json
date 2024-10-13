@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7325.601958036423,
+      "mTimestamp": 6976.35837495327,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4966547.102083087,
+      "mTimestamp": 1048671.1138329506,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -658,7 +658,7 @@
           }
         },
         {
-          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts",
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -667,161 +667,175 @@
             },
             "end": {
               "line": 5,
-              "column": 270
+              "column": 276
+            }
+          }
+        },
+        {
+          "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 292
+            },
+            "end": {
+              "line": 5,
+              "column": 363
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bullet.ts",
-          "resolved": "__unresolved_2",
+          "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 286
+              "column": 379
             },
             "end": {
               "line": 5,
-              "column": 361
+              "column": 454
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 377
+              "column": 470
             },
             "end": {
               "line": 5,
-              "column": 451
+              "column": 544
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 467
+              "column": 560
             },
             "end": {
               "line": 5,
-              "column": 548
+              "column": 641
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
               "line": 5,
-              "column": 564
+              "column": 657
             },
             "end": {
               "line": 5,
-              "column": 644
+              "column": 737
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 660
+              "column": 753
             },
             "end": {
               "line": 5,
-              "column": 735
+              "column": 828
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Reward.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 751
+              "column": 844
             },
             "end": {
               "line": 5,
-              "column": 826
+              "column": 919
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts",
-          "resolved": "__unresolved_8",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 842
+              "column": 935
             },
             "end": {
               "line": 5,
-              "column": 918
+              "column": 1011
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/BombUI.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 934
+              "column": 1027
             },
             "end": {
               "line": 5,
-              "column": 1012
+              "column": 1105
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts",
-          "resolved": "__unresolved_10",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1028
+              "column": 1121
             },
             "end": {
               "line": 5,
-              "column": 1110
+              "column": 1203
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts",
-          "resolved": "__unresolved_11",
+          "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1126
+              "column": 1219
             },
             "end": {
               "line": 5,
-              "column": 1209
+              "column": 1302
             }
           }
         },
         {
           "value": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/ScoreUI.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1225
+              "column": 1318
             },
             "end": {
               "line": 5,
-              "column": 1304
+              "column": 1397
             }
           }
         }
@@ -832,6 +846,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts"
           },
           "messages": []
         },
@@ -1591,7 +1612,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1728751844983,
+      "mTimestamp": 1728794542318,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1599,7 +1620,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1728756723178.1892,
+        "mtime": 1728795585783.9258,
         "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       },
       "chunkId": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d",
@@ -1619,11 +1640,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 67
+              "column": 78
             },
             "end": {
               "line": 1,
-              "column": 71
+              "column": 82
             }
           }
         },
@@ -1680,6 +1701,20 @@
             "end": {
               "line": 5,
               "column": 44
+            }
+          }
+        },
+        {
+          "value": "./AudioMgr",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 37
             }
           }
         }
@@ -1739,6 +1774,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts"
           },
           "messages": []
         }
@@ -1975,6 +2017,58 @@
             "end": {
               "line": 1,
               "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts": {
+      "mTimestamp": {
+        "mtime": 1728795548812.4812,
+        "uuid": "b52437c9-f990-41fa-8706-54a723ba1565"
+      },
+      "chunkId": "f1c019187be561dbebf53adf1e47102fd4884c2d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 66
+            },
+            "end": {
+              "line": 2,
+              "column": 70
             }
           }
         }

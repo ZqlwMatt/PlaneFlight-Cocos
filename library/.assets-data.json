@@ -31,7 +31,7 @@
     "versionCode": 1
   },
   "c7a7e21b-c063-4336-a871-35a716f1b9e6": {
-    "url": "db://assets/Audio/big_spaceship_flying.mp3",
+    "url": "db://assets/Audio/Bg/big_spaceship_flying.mp3",
     "value": {
       "depends": []
     },
@@ -78,7 +78,7 @@
     "versionCode": 1
   },
   "20d7dab1-2956-4a1d-ba28-24a35cafa337": {
-    "url": "db://assets/Audio/game_music.mp3",
+    "url": "db://assets/Audio/Bg/game_music.mp3",
     "value": {
       "depends": []
     },
@@ -1616,6 +1616,7 @@
         "dbbf4e1b-cbf0-456b-8ac0-44c30ffa084f@f9941",
         "c6fed09d-a123-443d-99c1-cd3dc3ddf166@f9941",
         "7ec81537-8d92-42d6-99f0-1f05c875e25e@f9941",
+        "20d7dab1-2956-4a1d-ba28-24a35cafa337",
         "ceeb5d4b-9f36-4bcb-872e-6dfc47a7ce37@f9941",
         "7a750b0b-d29d-47bb-b61c-2fd8874e07f1@f9941",
         "38676124-a178-4dc3-9aa4-f94384e8d0a0@f9941",
@@ -1799,7 +1800,8 @@
       "depends": [
         "f33a635f-8225-41f9-92e7-17a2d5fabc88@f9941",
         "d62c46ce-28e4-4de0-b30b-8f0340848620",
-        "edc7b68d-3757-479e-9008-b13283f8180f"
+        "edc7b68d-3757-479e-9008-b13283f8180f",
+        "c7a7e21b-c063-4336-a871-35a716f1b9e6"
       ],
       "dependScripts": [
         "6a6f9a37-df33-42f9-9861-32ec804fbea5"
@@ -1896,6 +1898,16 @@
   },
   "0a55b46e-9d88-41d2-b0d2-f6aa07bbc002": {
     "url": "db://assets/Scripts/UI/GameOverUI.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0cfbcaf8-65d5-4f3b-9292-377b4de55913": {
+    "url": "db://assets/Audio/Bg",
+    "value": {},
+    "versionCode": 1
+  },
+  "b52437c9-f990-41fa-8706-54a723ba1565": {
+    "url": "db://assets/Scripts/AudioMgr.ts",
     "value": {},
     "versionCode": 1
   }

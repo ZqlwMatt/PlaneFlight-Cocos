@@ -19,15 +19,8 @@
       "time": 1726818985012.3892
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio": {
-      "time": 1726818985010.653,
+      "time": 1728794699587.8125,
       "uuid": "a4784713-30d5-48bf-a651-f76f5c1ae8df"
-    },
-    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/big_spaceship_flying.mp3.meta": {
-      "time": 1726818985034.6426
-    },
-    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/big_spaceship_flying.mp3": {
-      "time": 1726818985005.928,
-      "uuid": "c7a7e21b-c063-4336-a871-35a716f1b9e6"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/button.mp3.meta": {
       "time": 1726818985034.003
@@ -70,13 +63,6 @@
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/enemy1_down.mp3": {
       "time": 1726818985004.0593,
       "uuid": "f0cac808-a20f-4183-af62-9761b3d23192"
-    },
-    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_music.mp3.meta": {
-      "time": 1726818985055.9329
-    },
-    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_music.mp3": {
-      "time": 1726818984992.2722,
-      "uuid": "20d7dab1-2956-4a1d-ba28-24a35cafa337"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_over.mp3.meta": {
       "time": 1726818985055.2368
@@ -516,7 +502,7 @@
       "time": 1728282984915.6096
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts": {
-      "time": 1728653519525.6138,
+      "time": 1728795201321.6492,
       "uuid": "3abe6206-4c3a-460c-8e9b-0af5af30d14a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/StartUI.ts.meta": {
@@ -530,7 +516,7 @@
       "time": 1728283839949.8428
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scenes/02-GameScene.scene": {
-      "time": 1728756307752.932,
+      "time": 1728795606629.867,
       "uuid": "da109a1c-644e-4578-b703-a1f20d11576a"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Bg.ts.meta": {
@@ -649,7 +635,7 @@
       "time": 1728376954162.3284
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Prefabs/Enemy2.prefab": {
-      "time": 1728728864386.023,
+      "time": 1728795342918.5662,
       "uuid": "d64d3cd3-fabf-4709-bad4-07324412c3b8"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Image/hero_down1.png.meta": {
@@ -726,7 +712,7 @@
       "time": 1728651662592.1704
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
-      "time": 1728756723178.1892,
+      "time": 1728795585783.9258,
       "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
     },
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI.meta": {
@@ -763,6 +749,34 @@
     "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/GameOverUI.ts": {
       "time": 1728752969686.55,
       "uuid": "0a55b46e-9d88-41d2-b0d2-f6aa07bbc002"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/Bg.meta": {
+      "time": 1728794680536.5354
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/Bg": {
+      "time": 1728794699587.8123,
+      "uuid": "0cfbcaf8-65d5-4f3b-9292-377b4de55913"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/Bg/big_spaceship_flying.mp3.meta": {
+      "time": 1726818985034.6426
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/Bg/big_spaceship_flying.mp3": {
+      "time": 1726818985005.928,
+      "uuid": "c7a7e21b-c063-4336-a871-35a716f1b9e6"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/Bg/game_music.mp3.meta": {
+      "time": 1726818985055.9329
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/Bg/game_music.mp3": {
+      "time": 1726818984992.2722,
+      "uuid": "20d7dab1-2956-4a1d-ba28-24a35cafa337"
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts.meta": {
+      "time": 1728795201326.0325
+    },
+    "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts": {
+      "time": 1728795548812.4812,
+      "uuid": "b52437c9-f990-41fa-8706-54a723ba1565"
     }
   },
   "missing": {
@@ -782,9 +796,9 @@
       "removeTime": 1726819006549
     },
     "c7a7e21b-c063-4336-a871-35a716f1b9e6": {
-      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/big_spaceship_flying.mp3",
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/big_spaceship_flying.mp3",
       "time": 1726818985005.928,
-      "removeTime": 1726819006549
+      "removeTime": 1728794686760
     },
     "b4e5c5be-a396-4d4a-b329-6c2c87ceb511": {
       "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/bullet.mp3",
@@ -812,9 +826,9 @@
       "removeTime": 1726819006550
     },
     "20d7dab1-2956-4a1d-ba28-24a35cafa337": {
-      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/game_music.mp3",
+      "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audio/game_music.mp3",
       "time": 1726818984992.2722,
-      "removeTime": 1726819006550
+      "removeTime": 1728794699588
     },
     "e0c7e1ea-e783-4d31-ab8e-a7579125baa8": {
       "path": "/Users/zqlwmatt/project/cocos/PlaneFlight/assets/Audi o/game_over.mp3",
