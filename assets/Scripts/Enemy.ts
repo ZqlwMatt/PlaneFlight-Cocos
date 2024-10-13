@@ -1,7 +1,8 @@
-import { _decorator, Animation, Collider2D, Component, Contact2DType, Game, IPhysics2DContact, Node, PhysicsSystem2D, Sprite } from 'cc';
+import { _decorator, Animation, AudioClip, Collider2D, Component, Contact2DType, Game, IPhysics2DContact, Node, PhysicsSystem2D, Sprite } from 'cc';
 import { Bullet } from './Bullet';
 import { GameManager } from './GameManager';
 import { EnemyManager } from './EnemyManager';
+import { AudioMgr } from './AudioMgr';
 const { ccclass, property } = _decorator;
 
 @ccclass('Enemy')
@@ -23,6 +24,9 @@ export class Enemy extends Component {
     animHit:string = "";
     @property
     animDown:string = "";
+
+    @property(AudioClip)
+    enemyDownAudio:AudioClip = null;
 
     collider:Collider2D = null;
 
@@ -90,6 +94,7 @@ export class Enemy extends Component {
 
     dead() {
         if (this.haveDead) return;
+        AudioMgr.inst.playOneShot(this.enemyDownAudio, 1.0);
         GameManager.getInstance().addScore(this.score);
         if (this.collider) {
             this.collider.enabled = false;

@@ -1,7 +1,8 @@
-import { _decorator, Animation, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Sprite, Vec3 } from 'cc';
+import { _decorator, Animation, AudioClip, Collider2D, Component, Contact2DType, EventTouch, Input, input, instantiate, IPhysics2DContact, Node, Prefab, Sprite, Vec3 } from 'cc';
 import { Reward, RewardType } from './Reward';
 import { GameManager } from './GameManager';
 import { LifeCountUI } from './UI/LifeCountUI';
+import { AudioMgr } from './AudioMgr';
 const { ccclass, property } = _decorator;
 
 enum ShootType {
@@ -53,6 +54,14 @@ export class Player extends Component {
 
     @property(LifeCountUI)
     lifeCountUI:LifeCountUI = null;
+
+    @property(AudioClip)
+    bulletAudio:AudioClip = null;
+
+    @property(AudioClip)
+    getBombAudio:AudioClip = null;
+    @property(AudioClip)
+    getDoubleAudio:AudioClip = null;
 
     @property
     invincibleTime:number = 1;
@@ -129,6 +138,7 @@ export class Player extends Component {
     oneShoot(deltaTime: number) {
         this.shootTimer += deltaTime;
         if (this.shootTimer >= this.shootRate) {
+            AudioMgr.inst.playOneShot(this.bulletAudio, 0.1);
             this.shootTimer = 0;
             const bullet1 = instantiate(this.bullet1Prefab);
             // 把子弹放到场景当中
@@ -145,6 +155,7 @@ export class Player extends Component {
 
         this.shootTimer += deltaTime;
         if (this.shootTimer >= this.shootRate) {
+            AudioMgr.inst.playOneShot(this.bulletAudio, 0.1);
             this.shootTimer = 0;
             const bullet1 = instantiate(this.bullet2Prefab);
             const bullet2 = instantiate(this.bullet2Prefab);
@@ -182,11 +193,13 @@ export class Player extends Component {
         switch(reward.rewardType) {
             case RewardType.TwoShoot:
                 console.log("Reward.TwoShoot");
+                AudioMgr.inst.playOneShot(this.getDoubleAudio);
                 this.transitionToTwoshoot();
                 break;
             case RewardType.Bomb:
                 console.log("Reward.Bomb");
                 // save bombs
+                AudioMgr.inst.playOneShot(this.getBombAudio);
                 GameManager.getInstance().addBomb();
                 break;
         }

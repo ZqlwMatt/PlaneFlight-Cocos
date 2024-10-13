@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1048732.1362919807,
+      "mTimestamp": 2133275.569374919,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -921,7 +921,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Player.ts": {
       "mTimestamp": {
-        "mtime": 1728752917675.18,
+        "mtime": 1728796512285.0593,
         "uuid": "05f5b2f4-31b8-4fbe-b682-dab688817a5b"
       },
       "chunkId": "4ee4b745e195651d43d93cea5e0e627822e7c083",
@@ -941,11 +941,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 162
+              "column": 173
             },
             "end": {
               "line": 1,
-              "column": 166
+              "column": 177
             }
           }
         },
@@ -988,6 +988,20 @@
             "end": {
               "line": 4,
               "column": 46
+            }
+          }
+        },
+        {
+          "value": "./AudioMgr",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 25
+            },
+            "end": {
+              "line": 5,
+              "column": 37
             }
           }
         }
@@ -1040,6 +1054,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/UI/LifeCountUI.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts"
           },
           "messages": []
         }
@@ -1099,7 +1120,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts": {
       "mTimestamp": {
-        "mtime": 1728756808986.559,
+        "mtime": 1728796185892.5588,
         "uuid": "6a6f9a37-df33-42f9-9861-32ec804fbea5"
       },
       "chunkId": "f74855fb9053ec63ccacca84b5ff0c446c1b86ec",
@@ -1119,11 +1140,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 132
+              "column": 143
             },
             "end": {
               "line": 1,
-              "column": 136
+              "column": 147
             }
           }
         },
@@ -1166,6 +1187,20 @@
             "end": {
               "line": 4,
               "column": 45
+            }
+          }
+        },
+        {
+          "value": "./AudioMgr",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 25
+            },
+            "end": {
+              "line": 5,
+              "column": 37
             }
           }
         }
@@ -1220,12 +1255,19 @@
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/EnemyManager.ts": {
       "mTimestamp": {
-        "mtime": 1728756779329.2964,
+        "mtime": 1728796674527.366,
         "uuid": "036c7b8d-1f35-4966-8c5b-d990bce0854a"
       },
       "chunkId": "a81822d777b3c4fbb3646598e36bf03da7bf05f2",
@@ -1245,11 +1287,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 103
+              "column": 114
             },
             "end": {
               "line": 1,
-              "column": 107
+              "column": 118
             }
           }
         },
@@ -1278,6 +1320,20 @@
             "end": {
               "line": 3,
               "column": 31
+            }
+          }
+        },
+        {
+          "value": "./AudioMgr",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 37
             }
           }
         }
@@ -1323,6 +1379,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/Enemy.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/AudioMgr.ts"
           },
           "messages": []
         }
@@ -1389,7 +1452,7 @@
     },
     "file:///Users/zqlwmatt/project/cocos/PlaneFlight/assets/Scripts/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1728795585783.9258,
+        "mtime": 1728796634183.618,
         "uuid": "c632bae7-6570-4d7a-9d93-f1deb7a93a25"
       },
       "chunkId": "964cc7eb02723ff5d467f1254c3cde38c3b4f90d",

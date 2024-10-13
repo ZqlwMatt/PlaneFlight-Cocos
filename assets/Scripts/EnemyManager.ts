@@ -1,6 +1,7 @@
-import { _decorator, Component, EventTouch, Game, input, Input, instantiate, math, Node, Prefab } from 'cc';
+import { _decorator, AudioClip, Component, EventTouch, Game, input, Input, instantiate, math, Node, Prefab } from 'cc';
 import { GameManager } from './GameManager';
 import { Enemy } from './Enemy';
+import { AudioMgr } from './AudioMgr';
 const { ccclass, property } = _decorator;
 
 @ccclass('EnemyManager')
@@ -39,6 +40,9 @@ export class EnemyManager extends Component {
     enemyArray:Node[] = [];
     doubleClickInterval:number = 0.2;
     lastClickTime:number = 0;
+
+    @property(AudioClip)
+    useBombAudio:AudioClip = null;
 
     protected onLoad(): void {
         this.lastClickTime = 0;
@@ -114,6 +118,7 @@ export class EnemyManager extends Component {
         if (GameManager.getInstance().hasBomb() === false) return;
 
         GameManager.getInstance().useBomb();
+        AudioMgr.inst.playOneShot(this.useBombAudio);
 
         for (let e of this.enemyArray) {
             const enemy = e.getComponent(Enemy);

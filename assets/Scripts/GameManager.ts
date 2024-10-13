@@ -40,6 +40,11 @@ export class GameManager extends Component {
     @property(AudioClip)
     gameMusic:AudioClip = null;
 
+    @property(AudioClip)
+    buttonAudio:AudioClip = null;
+
+    @property(AudioClip)
+    gameOverAudio:AudioClip = null;
 
     protected onLoad(): void {
         GameManager.instance = this;
@@ -71,6 +76,8 @@ export class GameManager extends Component {
 
     onPauseButtonClick() {
         // this.node.emit("onPauseGame");
+        AudioMgr.inst.playOneShot(this.buttonAudio, 1.0);
+        AudioMgr.inst.pause();
         director.pause();
         this.player.disableControl();
         this.pauseButtonNode.active = false;
@@ -78,6 +85,8 @@ export class GameManager extends Component {
     }
     onResumeButtonClick() {
         // this.node.emit("onResumeGame");
+        AudioMgr.inst.playOneShot(this.buttonAudio, 1.0);
+        AudioMgr.inst.resume();
         director.resume();
         this.player.enableControl();
         this.pauseButtonNode.active = true;
@@ -86,6 +95,7 @@ export class GameManager extends Component {
 
     gameOver() {
         // hp = 0, show GameOverUI
+        AudioMgr.inst.playOneShot(this.gameOverAudio);
         this.onPauseButtonClick();
         // localStorage
         let bestScore = parseInt(localStorage.getItem("bestScore") || "0");
@@ -97,6 +107,7 @@ export class GameManager extends Component {
     }
 
     onRestartButtonClick() {
+        AudioMgr.inst.playOneShot(this.buttonAudio, 1.0);
         director.loadScene(director.getScene().name);
         this.onResumeButtonClick();
     }

@@ -285,6 +285,10 @@
     "score": 900,
     "animHit": "Enemy2_Hit",
     "animDown": "Enemy2_Down",
+    "enemyDownAudio": {
+      "__uuid__": "7a3688d7-5015-4df5-962e-09971804ee15",
+      "__expectedType__": "cc.AudioClip"
+    },
     "_id": ""
   },
   {
@@ -429,7 +433,7 @@
     },
     "_loop": true,
     "_playOnAwake": true,
-    "_volume": 0.2,
+    "_volume": 0.1,
     "_id": ""
   },
   {
